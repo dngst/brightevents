@@ -1,0 +1,35 @@
+{
+  "short_name": "B.E",
+  "name": "Bright Events",
+  "icons": [
+    {
+      "src": "favicon-16x16.png",
+      "type": "image/png",
+      "sizes": "16x16"
+    },
+    {
+      "src": "favicon-32x32.png",
+      "type": "image/png",
+      "sizes": "32x32"
+    },
+    {
+      "src": "favicon.ico",
+      "type": "image/x-icon",
+      "sizes": "48x48"
+    },
+    {
+      "src": "logo192.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "logo512.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#f78f1e",
+  "background_color": "#f78f1e"
+}

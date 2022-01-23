@@ -1,0 +1,21 @@
+.index {
+    text-align: center;
+}
+
+.index h1 {
+    text-transform: capitalize;
+    color: #ffffff;
+    font-size: 3rem;
+    margin-top: 15%;
+}
+
+.index a {
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #f78f1e;
+    font-weight: bold;
+}
+    
+.center {
+    text-align: center;
+}
