@@ -1,5 +1,5 @@
 .home {
-    background:  linear-gradient(rgb(247, 143, 30), rgba(0, 0, 0, 0.5)),
+    background:  linear-gradient(rgb(247, 143, 30), rgba(0, 0, 0, 0.8)),
     url(https://images.pexels.com/photos/2361102/pexels-photo-2361102.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260) no-repeat center center; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
