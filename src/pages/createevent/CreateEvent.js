@@ -16,7 +16,7 @@ const CreateEvent = () => {
             <Input placeholder="event category" />
             <Input placeholder="event date" />
             <Input placeholder="event time" />
-            <Button primary as="a" href="/login">create</Button>
+            <Button primary>create</Button>
         </div>
     );
 }
