@@ -18,9 +18,6 @@ const CreateEvent = () => {
             <Input placeholder="event  date" />
             <Input placeholder="event  time" />
             <Button primary as="a" href="/login">create</Button>
-            <p className="capitalize">
-                <Link to="/events">browse events</Link>
-            </p>
         </div>
     );
 }
