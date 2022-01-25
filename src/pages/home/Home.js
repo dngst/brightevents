@@ -1,14 +1,16 @@
-import React from 'react';
-import { Link } from "wouter";
+import { Helmet } from "react-helmet";
 import Button from "../../components/button/Button";
 import './Home.css';
 
+
 const Home = () => {
-    document.title = 'Bright Events - Create & Manage Events';
     return (
-        <div className="index">
-            <h1>plan your next event</h1>
-            <Button><Link to="#">get started</Link></Button>
+        <div className="home center">
+            <Helmet>
+                <title>Bright Events - Create & Manage Events</title>
+            </Helmet>
+            <h1 className="capitalize">plan your next event</h1>
+            <Button as="a" href="/newevent">get started</Button>
         </div>
     );
 }

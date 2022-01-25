@@ -1,13 +1,16 @@
-import styled from 'styled-components'
+import styled from "styled-components";
 
 const Button = styled.button`
-  background-color: #ffffff;
-  border-radius: 3px;
-  border: 1px solid #f78f1e;
-  color: #f78f1e;
-  margin: 0 1em;
+  color: ${props => props.primary ? "#ffffff" : "#f78f1e"};
+  background-color: ${props => props.primary ? "#f78f1e" : "#ffffff"};
+  border: 1px solid ${props => props.primary ? "#f78f1e" : "#ffffff"};
+  border-radius: 0;
+  margin: auto;
   padding: 0.7em 2em;
   font-size: 0.9em;
+  text-transform: uppercase;
+  font-weight: bold;
+  cursor: pointer;
 `
 
 export default Button;
