@@ -1,6 +1,5 @@
 import { Helmet } from "react-helmet";
 import Button from "../../components/button/Button";
-import './Home.css';
 
 
 const Home = () => {
