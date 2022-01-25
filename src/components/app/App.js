@@ -1,6 +1,6 @@
 import { Route, Switch } from "wouter";
 import Home from "../../pages/home/Home";
-import CreateEvent from "../../pages/newevent/CreateEvent";
+import CreateEvent from "../../pages/createevent/CreateEvent";
 import PageNotFound from "../../pages/pagenotfound/PageNotFound";
 import ResetPassword from "../../pages/resetpassword/ResetPassword";
 import SignUp from "../../pages/signup/SignUp";
