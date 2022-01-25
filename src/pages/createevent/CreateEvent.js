@@ -11,11 +11,11 @@ const CreateEvent = () => {
             </Helmet>
             <h1 className="capitalize">new event</h1>
             <Input placeholder="event title" />
-            <Input placeholder="event  description" />
-            <Input placeholder="event  location" />
-            <Input placeholder="event  category" />
-            <Input placeholder="event  date" />
-            <Input placeholder="event  time" />
+            <Input placeholder="event description" />
+            <Input placeholder="event location" />
+            <Input placeholder="event category" />
+            <Input placeholder="event date" />
+            <Input placeholder="event time" />
             <Button primary as="a" href="/login">create</Button>
         </div>
     );
