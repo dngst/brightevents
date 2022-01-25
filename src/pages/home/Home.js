@@ -10,7 +10,7 @@ const Home = () => {
                 <title>Bright Events - Create & Manage Events</title>
             </Helmet>
             <h1 className="capitalize">plan your next event</h1>
-            <Button as="a" href="/newevent" primary>get started</Button>
+            <Button as="a" href="/new" primary>get started</Button>
         </div>
     );
 }
