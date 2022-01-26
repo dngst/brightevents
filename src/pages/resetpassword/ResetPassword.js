@@ -1,18 +1,20 @@
 import { Helmet } from "react-helmet";
+import Container from "../../components/container/Container";
+import Title from "../../components/title/Title";
 import Input from "../../components/input/Input";
 import Button from "../../components/button/Button";
 
 
 const ResetPassword = () => {
     return (
-        <div>
+        <Container>
             <Helmet>
                 <title>Reset Password | Bright Events</title>
             </Helmet>
-            <h1 className="capitalize">reset password</h1>
+            <Title>reset password</Title>
             <Input placeholder="enter your email" />
             <Button primary>send link</Button>
-        </div>
+        </Container>
     );
 }
 

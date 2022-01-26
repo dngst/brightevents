@@ -1,20 +1,22 @@
 import { Helmet } from "react-helmet";
+import Container from "../../components/container/Container";
+import Title from "../../components/title/Title";
 import Input from "../../components/input/Input";
 import Card from "../../components/card/Card";
 
 
 const ViewEvents = () => {
     return (
-        <div>
+        <Container>
             <Helmet>
                 <title>Events | Bright Events</title>
             </Helmet>
-            <h1 className="capitalize">browse events</h1>
+            <Title>browse events</Title>
             <Input placeholder="search events by title, location, cateogry" />
             <Card />
             <Card />
             <Card />
-        </div>
+        </Container>
     );
 }
 

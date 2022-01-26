@@ -1,27 +1,30 @@
 import { Helmet } from "react-helmet";
 import { Link } from "wouter";
+import Container from "../../components/container/Container";
+import Title from "../../components/title/Title";
 import Button from "../../components/button/Button";
 import Input from "../../components/input/Input";
 import PasswordInput from "../../components/input/PasswordInput";
+import Paragraph from "../../components/paragraph/Paragraph";
 
 
 const Login = () => {
     return (
-        <div>
+        <Container>
             <Helmet>
                 <title>Login | Bright Events</title>
             </Helmet>
-            <h1 className="capitalize">login</h1>
+            <Title>login</Title>
             <Input placeholder="email" />
             <PasswordInput placeholder="password" />
             <Button primary>submit</Button>
-            <p className="capitalize">
+            <Paragraph>
                 <Link to="/resetpassword">forgot password? reset password</Link>
-            </p>
-            <p className="capitalize">
+            </Paragraph>
+            <Paragraph>
                 Don't have an account?<Link to="/signup"> sign up</Link>
-            </p>
-        </div>
+            </Paragraph>
+        </Container>
     );
 }
 

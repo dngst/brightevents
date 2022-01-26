@@ -1,16 +1,17 @@
 import { Helmet } from "react-helmet";
+import Container from "../../components/container/Container";
+import Title from "../../components/title/Title";
 import Button from "../../components/button/Button";
-
 
 const PageNotFound = () => {
     return (
-        <div className="index center">
+        <Container>
             <Helmet>
                 <title>Page Not Found | Bright Events</title>
             </Helmet>
-            <h1>page not found</h1>
+            <Title>page not found</Title>
             <Button as="a" href="/">go to home</Button>
-        </div>
+        </Container>
     );
 }
 

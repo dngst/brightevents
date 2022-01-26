@@ -1,15 +1,17 @@
 import { Helmet } from "react-helmet";
+import Container from "../../components/container/Container";
+import Title from "../../components/title/Title";
 import Button from "../../components/button/Button";
 import Input from "../../components/input/Input";
 
 
 const CreateEvent = () => {
     return (
-        <div>
+        <Container>
             <Helmet>
                 <title>Create Event | Bright Events</title>
             </Helmet>
-            <h1 className="capitalize">new event</h1>
+            <Title>new event</Title>
             <Input placeholder="event title" />
             <Input placeholder="event description" />
             <Input placeholder="event location" />
@@ -17,7 +19,7 @@ const CreateEvent = () => {
             <Input placeholder="event date" />
             <Input placeholder="event time" />
             <Button primary>create</Button>
-        </div>
+        </Container>
     );
 }
 
