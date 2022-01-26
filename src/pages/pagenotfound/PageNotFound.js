@@ -10,7 +10,7 @@ const PageNotFound = () => {
                 <title>Page Not Found | Bright Events</title>
             </Helmet>
             <Title>page not found</Title>
-            <Button as="a" href="/">go to home</Button>
+            <Button as="a" href="/events">browse events</Button>
         </Container>
     );
 }
