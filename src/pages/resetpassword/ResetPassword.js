@@ -1,8 +1,8 @@
 import { Helmet } from "react-helmet";
-import Container from "../../components/container/Container";
-import Title from "../../components/title/Title";
-import Input from "../../components/input/Input";
-import Button from "../../components/button/Button";
+import Container from "components/container/Container";
+import Title from "components/title/Title";
+import Input from "components/input/Input";
+import Button from "components/button/Button";
 
 
 const ResetPassword = () => {

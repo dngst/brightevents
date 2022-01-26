@@ -1,8 +1,8 @@
 import { Helmet } from "react-helmet";
-import Container from "../../components/container/Container";
-import Title from "../../components/title/Title";
-import Button from "../../components/button/Button";
-import Input from "../../components/input/Input";
+import Container from "components/container/Container";
+import Title from "components/title/Title";
+import Button from "components/button/Button";
+import Input from "components/input/Input";
 
 
 const UpdateEvent = () => {
