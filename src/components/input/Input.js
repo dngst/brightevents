@@ -10,6 +10,7 @@ const Input = styled.input.attrs(props => ({
   margin: 0 0 1em;
   text-transform: capitalize;
   border-radius: 0;
+  box-sizing: border-box;
   ::placeholder {
     color: #f78f1e;
   }
