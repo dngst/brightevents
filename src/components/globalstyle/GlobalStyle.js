@@ -6,22 +6,12 @@ const GlobalStyle = createGlobalStyle`
   }
 
   a {
-	text-decoration: none;
-	color: #f78f1e;
-  }
-
-  .index h1 {
-	text-transform: capitalize;
-	font-size: 3rem;
-	margin-top: 15%;
+    text-decoration: none;
+    color: #f78f1e;
   }
 
   .center {
-	text-align: center;
-  }
-
-  .capitalize {
-	text-transform: capitalize;
+    text-align: center;
   }
 
   .home {
@@ -37,11 +27,9 @@ const GlobalStyle = createGlobalStyle`
 
   .home h1 {
     color: #ffffff;
-    margin:auto ;
+    margin:auto;
     padding: 15% 0 2.5% ;
     font-size: 3rem;
   }
-
-
 `
 export default GlobalStyle;
