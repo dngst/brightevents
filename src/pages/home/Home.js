@@ -1,6 +1,6 @@
 import { Helmet } from "react-helmet";
+import Title from "../../components/title/Title";
 import Button from "../../components/button/Button";
-
 
 const Home = () => {
     return (
@@ -8,7 +8,7 @@ const Home = () => {
             <Helmet>
                 <title>Bright Events - Create & Manage Events</title>
             </Helmet>
-            <h1 className="capitalize">plan your next event</h1>
+            <Title>plan your next event</Title>
             <Button as="a" href="/new" primary>get started</Button>
         </div>
     );
