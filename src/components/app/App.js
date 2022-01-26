@@ -7,6 +7,7 @@ import ResetPassword from "../../pages/resetpassword/ResetPassword";
 import SignUp from "../../pages/signup/SignUp";
 import Login from "../../pages/login/Login";
 import ViewEvents from "../../pages/viewevents/ViewEvents";
+import UpdateEvent from "../../pages/updateevent/UpdateEvent";
 
 
 const App = () => {
@@ -15,11 +16,12 @@ const App = () => {
       <GlobalStyle />
       <Switch>
         <Route path="/" component={Home} />
+        <Route path="/events" component={ViewEvents} />
         <Route path="/new" component={CreateEvent} />
-        <Route path="/resetpassword" component={ResetPassword} />
+        <Route path="/update" component={UpdateEvent} />
         <Route path="/signup" component={SignUp} />
         <Route path="/login" component={Login} />
-        <Route path="/events" component={ViewEvents} />
+        <Route path="/resetpassword" component={ResetPassword} />
         <Route component={PageNotFound} />
       </Switch>
     </div>
