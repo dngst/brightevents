@@ -4,6 +4,8 @@ import Title from "components/title/Title";
 import Button from "components/button/Button";
 import Input from "components/input/Input";
 import TextArea from "components/input/TextArea";
+import DatePicker from "components/input/DatePicker";
+import TimePicker from "components/input/TimePicker";
 
 
 const CreateEvent = () => {
@@ -17,8 +19,9 @@ const CreateEvent = () => {
             <TextArea placeholder="event description" />
             <Input placeholder="event location" />
             <Input placeholder="event category" />
-            <Input placeholder="event date" />
-            <Input placeholder="event time" />
+            <DatePicker />
+            <TimePicker />
+            <TimePicker />
             <Button primary>create</Button>
         </Container>
     );
