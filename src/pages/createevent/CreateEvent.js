@@ -3,6 +3,7 @@ import Container from "components/container/Container";
 import Title from "components/title/Title";
 import Button from "components/button/Button";
 import Input from "components/input/Input";
+import TextArea from "components/input/TextArea";
 
 
 const CreateEvent = () => {
@@ -13,7 +14,7 @@ const CreateEvent = () => {
             </Helmet>
             <Title>new event</Title>
             <Input placeholder="event title" />
-            <Input placeholder="event description" />
+            <TextArea placeholder="event description" />
             <Input placeholder="event location" />
             <Input placeholder="event category" />
             <Input placeholder="event date" />
