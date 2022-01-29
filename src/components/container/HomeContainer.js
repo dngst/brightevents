@@ -9,9 +9,10 @@ const HomeContainer = styled.div`
   h1 {
     font-size: 3.7rem;
     color: #ffffff;
-    margin: 15% 0 1%;
+    margin: 19% 0 1%;
   }
   @media (max-width: 480px) {
+    line-height: 5rem;
     h1 {
       margin: 60% 0 0;
     }

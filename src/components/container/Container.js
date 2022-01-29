@@ -6,6 +6,7 @@ const Container = styled.div`
   margin: 7% auto;
   @media (max-width: 480px) {
     width: 100%;
+    margin-top: 25%;
   }
 `
 export default Container;
