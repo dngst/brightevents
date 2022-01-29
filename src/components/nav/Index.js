@@ -5,7 +5,6 @@ const Index = styled.span`
   cursor: pointer;
   img {
     height: 2rem;
-    width: 100%;
   }
 `;
 
