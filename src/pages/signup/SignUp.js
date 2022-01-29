@@ -20,7 +20,7 @@ const SignUp = () => {
             <PasswordInput placeholder="password" />
             <PasswordInput placeholder="password confirmation" />
             <Button primary>join</Button>
-            <Paragraph>
+            <Paragraph capitalize>
                 Already have an account?<Link to="/login"> login</Link>
             </Paragraph>
         </Container>

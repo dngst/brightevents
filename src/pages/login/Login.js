@@ -18,10 +18,10 @@ const Login = () => {
             <Input placeholder="email" />
             <PasswordInput placeholder="password" />
             <Button primary>submit</Button>
-            <Paragraph>
+            <Paragraph capitalize>
                 <Link to="/resetpassword">forgot password? reset password</Link>
             </Paragraph>
-            <Paragraph>
+            <Paragraph capitalize>
                 Don't have an account?<Link to="/signup"> sign up</Link>
             </Paragraph>
         </Container>
