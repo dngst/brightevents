@@ -5,6 +5,7 @@ const Index = styled.a`
   color: #f78f1e;
   img {
     height: 2rem;
+    width: 100%;
   }
 `;
 
