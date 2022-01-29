@@ -1,8 +1,8 @@
 import React, { useState } from "react";
+import { Link } from "wouter";
 import Nav from "./Nav";
 import Index from "./Index";
 import Menu from "./Menu";
-import MenuLink from "./MenuLink";
 import Hamburger from "./Hamburger";
 import Logo from "./logo.png"
 
@@ -12,8 +12,8 @@ const Navbar = () => {
 
   return (
     <Nav>
-      <Index href="/">
-        <img src={Logo} alt="Home" />
+      <Index>
+        <Link to="/"><img src={Logo} alt="Home" /></Link>
       </Index>
       <Hamburger onClick={() => setIsOpen(!isOpen)}>
         <span />
@@ -21,9 +21,9 @@ const Navbar = () => {
         <span />
       </Hamburger>
       <Menu isOpen={isOpen}>
-        <MenuLink href="/about">about</MenuLink>
-        <MenuLink href="/events">browse events</MenuLink>
-        <MenuLink href="/login">login</MenuLink>
+        <Link href="/about">about</Link>
+        <Link href="/events">browse events</Link>
+        <Link href="/login">login</Link>
       </Menu>
     </Nav>
   );
