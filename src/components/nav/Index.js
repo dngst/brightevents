@@ -1,8 +1,8 @@
 import styled from "styled-components";
 
-const Index = styled.a`
+const Index = styled.span`
   padding: 1rem 0;
-  color: #f78f1e;
+  cursor: pointer;
   img {
     height: 2rem;
     width: 100%;
