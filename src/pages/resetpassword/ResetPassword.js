@@ -12,7 +12,7 @@ const ResetPassword = () => {
                 <title>Reset Password | Bright Events</title>
             </Helmet>
             <Title>reset password</Title>
-            <Input placeholder="enter your email" />
+            <Input placeholder="email" />
             <Button primary>send link</Button>
         </Container>
     );
