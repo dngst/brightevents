@@ -1,11 +1,11 @@
 import { Helmet } from "react-helmet";
 import { Link } from "wouter";
 import Container from "components/container/Container";
-import Title from "components/title/Title";
-import Button from "components/button/Button";
+import Title from "components/Title";
+import Button from "components/Button";
 import Input from "components/input/Input";
 import PasswordInput from "components/input/PasswordInput";
-import Paragraph from "components/paragraph/Paragraph";
+import Paragraph from "components/Paragraph";
 
 
 const Login = () => {

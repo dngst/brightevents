@@ -1,20 +1,20 @@
 import { Helmet } from "react-helmet";
 import Container from "components/container/Container";
-import Title from "components/title/Title";
-import Button from "components/button/Button";
+import Title from "components/Title";
+import Button from "components/Button";
 import Input from "components/input/Input";
 import TextArea from "components/input/TextArea";
 import DatePicker from "components/input/DatePicker";
 import TimePicker from "components/input/TimePicker";
 
 
-const CreateEvent = () => {
+const UpdateEvent = () => {
     return (
         <Container>
             <Helmet>
-                <title>Create Event | Bright Events</title>
+                <title>Update Event | Bright Events</title>
             </Helmet>
-            <Title>new event</Title>
+            <Title>edit event</Title>
             <Input placeholder="event title" />
             <TextArea placeholder="event description" />
             <Input placeholder="event location" />
@@ -22,9 +22,9 @@ const CreateEvent = () => {
             <DatePicker />
             <TimePicker />
             <TimePicker />
-            <Button primary>create</Button>
+            <Button primary>update</Button>
         </Container>
     );
 }
 
-export default CreateEvent;
+export default UpdateEvent;

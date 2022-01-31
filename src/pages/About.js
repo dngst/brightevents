@@ -1,7 +1,7 @@
 import { Helmet } from "react-helmet";
 import Container from "components/container/Container";
-import Title from "components/title/Title";
-import Paragraph from "components/paragraph/Paragraph";
+import Title from "components/Title";
+import Paragraph from "components/Paragraph";
 
 
 const About = () => {

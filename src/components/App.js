@@ -1,16 +1,16 @@
 import { Route, Switch } from "wouter";
-import GlobalStyle from "../globalstyle/GlobalStyle";
-import Navbar from "../nav/Navbar";
-import Home from "pages/home/Home";
-import CreateEvent from "pages/createevent/CreateEvent";
-import Login from "pages/login/Login";
-import SignUp from "pages/signup/SignUp";
-import ResetPassword from "pages/resetpassword/ResetPassword";
-import ViewEvents from "pages/viewevents/ViewEvents";
+import GlobalStyle from "components/GlobalStyle";
+import Navbar from "components/nav/Navbar";
+import Home from "pages/Home";
+import CreateEvent from "pages/CreateEvent";
+import Login from "pages/Login";
+import SignUp from "pages/SignUp";
+import ResetPassword from "pages/ResetPassword";
+import ViewEvents from "pages/ViewEvents";
 import Event from "pages/Event";
-import UpdateEvent from "pages/updateevent/UpdateEvent";
-import PageNotFound from "pages/pagenotfound/PageNotFound";
-import About from "pages/about/About";
+import UpdateEvent from "pages/UpdateEvent";
+import PageNotFound from "pages/PageNotFound";
+import About from "pages/About";
 
 
 const App = () => {

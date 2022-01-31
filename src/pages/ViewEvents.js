@@ -2,10 +2,10 @@ import { Helmet } from "react-helmet";
 import { Link } from "wouter";
 import Container from "components/container/Container";
 import Sticky from "components/container/Sticky";
-import Title from "components/title/Title";
+import Title from "components/Title";
 import Input from "components/input/Input";
-import Card from "components/card/Card";
-import Paragraph from "components/paragraph/Paragraph";
+import Card from "components/Card";
+import Paragraph from "components/Paragraph";
 
 
 const ViewEvents = () => {

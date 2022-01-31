@@ -1,9 +1,9 @@
 import { Helmet } from "react-helmet";
 import { Link } from "wouter";
 import EventContainer from "components/container/EventContainer";
-import Title from "components/title/Title";
-import Paragraph from "components/paragraph/Paragraph";
-import Button from "components/button/Button";
+import Title from "components/Title";
+import Paragraph from "components/Paragraph";
+import Button from "components/Button";
 
 
 const Event = () => {

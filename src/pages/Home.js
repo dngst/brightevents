@@ -1,6 +1,6 @@
 import { Helmet } from "react-helmet";
-import Title from "components/title/Title";
-import Button from "components/button/Button";
+import Title from "components/Title";
+import Button from "components/Button";
 import HomeContainer from "components/container/HomeContainer";
 
 
