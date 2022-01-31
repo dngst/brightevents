@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 const TextArea = styled.textarea`
   border: none;
-  border-bottom: 1px solid #f78f1e;
+  border-bottom: 1px solid #81523F;;
   height: 6rem;
   width: 100%;
   margin: 0 0 1em;
@@ -11,7 +11,7 @@ const TextArea = styled.textarea`
   overflow: auto;
   resize: none;
   ::placeholder {
-    color: #f78f1e;
+    color: #81523F;;
   }
   &:focus {
     outline: none;

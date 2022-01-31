@@ -4,7 +4,7 @@ const Input = styled.input.attrs(props => ({
   type: 'text'
 }))`
   border: none;
-  border-bottom: 1px solid #f78f1e;
+  border-bottom: 1px solid #81523F;
   display: block;
   height: 2rem;
   width: 100%;
@@ -12,7 +12,7 @@ const Input = styled.input.attrs(props => ({
   text-transform: capitalize;
   box-sizing: border-box;
   ::placeholder {
-    color: #f78f1e;
+    color: #81523F;
   }
   &:focus {
     outline: none;
