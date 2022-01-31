@@ -1,4 +1,5 @@
 import { Helmet } from "react-helmet";
+import { Link } from "wouter";
 import EventContainer from "components/container/EventContainer";
 import Title from "components/title/Title";
 import Paragraph from "components/paragraph/Paragraph";
@@ -22,7 +23,7 @@ const Event = () => {
             <Paragraph capitalize>nakuru</Paragraph>
             <Paragraph>1-2-2022</Paragraph>
             <Paragraph>11:00 to 2:00</Paragraph>
-            <Paragraph>#food</Paragraph>
+            <Paragraph><Link to="#">#food</Link></Paragraph>
             <Button primary>rsvp</Button>
         </EventContainer>
     );
