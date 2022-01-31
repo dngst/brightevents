@@ -3,7 +3,7 @@ import Container from "./Container";
 
 const EventContainer = styled(Container)`
   border: 10px outset #C1DBE3;
-  padding: 2%;
+  padding: 1%;
   hr {
     border-color: #CA1551;
     width: 8rem;
@@ -18,6 +18,9 @@ const EventContainer = styled(Container)`
   }
   @media (max-width: 480px) {
     padding: 4.5%;
+    h1 {
+      font-size: 1.8rem;
+    }
   }
 `;
 
