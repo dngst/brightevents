@@ -17,8 +17,7 @@ const ViewEvents = () => {
             <Input placeholder="search events by title, location, cateogry" />
             <Card>
                 <Paragraph className="card-title">
-                    <Link to="event">breaking the fast</Link>
-                    <span> - 1 feb 22</span>
+                    <span>1 feb 22 </span>| <Link to="event">breaking the fast</Link>
                 </Paragraph>
                 <Paragraph>
                 Deserunt voluptate pariatur tempor et eiusmod ex tempor mollit
