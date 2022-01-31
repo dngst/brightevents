@@ -7,7 +7,7 @@ const Sticky = styled.div`
   h1 {
     padding-top: 3%;
   }
-  @media (max-width: 480px) {
+  @media (max-width: 768px) {
     h1 {
       top: 2%;
       position: sticky;

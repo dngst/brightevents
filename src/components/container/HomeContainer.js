@@ -11,7 +11,7 @@ const HomeContainer = styled.div`
     color: #ffffff;
     margin: 19% 0 1%;
   }
-  @media (max-width: 480px) {
+  @media (max-width: 768px) {
     line-height: 5rem;
     h1 {
       margin: 60% 0 0;
