@@ -14,7 +14,7 @@ const UpdateEvent = () => {
             <Helmet>
                 <title>Update Event | Bright Events</title>
             </Helmet>
-            <Title>edit event</Title>
+            <Title>update event</Title>
             <Input placeholder="event title" />
             <TextArea placeholder="event description" />
             <Input placeholder="event location" />
@@ -22,7 +22,7 @@ const UpdateEvent = () => {
             <DatePicker />
             <TimePicker />
             <TimePicker />
-            <Button primary>update</Button>
+            <Button primary>edit</Button>
         </Container>
     );
 }

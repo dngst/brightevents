@@ -17,7 +17,7 @@ const Login = () => {
             <Title>login</Title>
             <Input placeholder="email" />
             <PasswordInput placeholder="password" />
-            <Button primary>submit</Button>
+            <Button primary>ok</Button>
             <Paragraph capitalize>
                 <Link to="/resetpassword">forgot password?</Link>
             </Paragraph>

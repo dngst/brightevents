@@ -14,7 +14,7 @@ const CreateEvent = () => {
             <Helmet>
                 <title>Create Event | Bright Events</title>
             </Helmet>
-            <Title>new event</Title>
+            <Title>create event</Title>
             <Input placeholder="event title" />
             <TextArea placeholder="event description" />
             <Input placeholder="event location" />
@@ -22,7 +22,7 @@ const CreateEvent = () => {
             <DatePicker />
             <TimePicker />
             <TimePicker />
-            <Button primary>create</Button>
+            <Button primary>add</Button>
         </Container>
     );
 }
