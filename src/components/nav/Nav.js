@@ -11,6 +11,12 @@ const Nav = styled.div`
   top: 0;
   left: 0;
   right: 0;
+  .active {
+    text-underline-position: under;
+    text-decoration: underline;
+    text-underline-offset: 0.5em;
+    text-decoration-color: #f78f1e;
+  }
   @media (max-width: 768px) {
     border-bottom: 1px solid #f2f2f2;
   }

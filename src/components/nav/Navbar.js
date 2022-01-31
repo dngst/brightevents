@@ -1,6 +1,6 @@
 import React, { useState } from "react";
-import { Link } from "wouter";
 import Nav from "./Nav";
+import ActiveLink from "./ActiveLink";
 import Index from "./Index";
 import Menu from "./Menu";
 import Hamburger from "./Hamburger";
@@ -13,7 +13,7 @@ const Navbar = () => {
   return (
     <Nav>
       <Index>
-        <Link to="/"><img src={Logo} alt="Home" /></Link>
+        <ActiveLink href="/"><img src={Logo} alt="Home" /></ActiveLink>
       </Index>
       <Hamburger onClick={() => setIsOpen(!isOpen)}>
         <span />
@@ -21,9 +21,9 @@ const Navbar = () => {
         <span />
       </Hamburger>
       <Menu isOpen={isOpen}>
-        <Link href="/about">about</Link>
-        <Link href="/events">browse events</Link>
-        <Link href="/login">login</Link>
+        <ActiveLink href="/about">about</ActiveLink>
+        <ActiveLink href="/events">browse events</ActiveLink>
+        <ActiveLink href="/login">login</ActiveLink>
       </Menu>
     </Nav>
   );
