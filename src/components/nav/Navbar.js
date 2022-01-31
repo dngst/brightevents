@@ -23,6 +23,7 @@ const Navbar = () => {
       <Menu isOpen={isOpen}>
         <ActiveLink href="/about">about</ActiveLink>
         <ActiveLink href="/events">browse events</ActiveLink>
+        <ActiveLink href="/new">create event</ActiveLink>
         <ActiveLink href="/login">login</ActiveLink>
       </Menu>
     </Nav>
