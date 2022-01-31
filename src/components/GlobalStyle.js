@@ -10,5 +10,16 @@ const GlobalStyle = createGlobalStyle`
     text-decoration: none;
     color: #345995;
   }
+
+  body::-webkit-scrollbar {
+    width: 0.35em;
+  }
+
+  body::-webkit-scrollbar-thumb {
+    background-color: #345995;
+    &:hover {
+      background-color: #CA1551;
+    }
+  }
 `
 export default GlobalStyle;
