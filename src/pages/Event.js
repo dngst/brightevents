@@ -14,7 +14,7 @@ const Event = () => {
             </Helmet>
             <Title>breaking the fast</Title>
             <hr />
-            <Paragraph>
+            <Paragraph justify>
             Deserunt voluptate pariatur tempor et eiusmod ex tempor mollit
             dolore voluptate quis veniam non in ullamco consequat
             consectetur dolor labore adipisicing culpa ad do excepteur ut

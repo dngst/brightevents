@@ -8,5 +8,11 @@ const Container = styled.div`
     width: 85%;
     margin-top: 25%;
   }
+   @media (max-width: 768px) {
+    p {
+      text-align: justify;
+      word-break: break-all;
+    }
+   }
 `
 export default Container;
