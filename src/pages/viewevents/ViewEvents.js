@@ -8,7 +8,7 @@ import Card from "components/card/Card";
 
 const ViewEvents = () => {
     return (
-        <Container>
+        <Container primary>
             <Helmet>
                 <title>Events | Bright Events</title>
             </Helmet>
