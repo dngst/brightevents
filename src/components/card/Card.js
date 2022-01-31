@@ -16,17 +16,11 @@ const Card = styled.div`
     a {
       color: #81523F;
       text-decoration: underline;
-      text-underline-position: under;
-      text-underline-offset: 0.3em;
     }
     span {
       color: #CA1551;
     }
     @media (max-width: 480px) {
-      a {
-        text-underline-position: auto;
-        text-underline-offset: auto;
-      }
       span {
         display: none;
       }
