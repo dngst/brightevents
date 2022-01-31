@@ -9,12 +9,12 @@ const Home = () => {
         <HomeContainer>
             <Helmet>
                 <title>Bright Events - Create & Manage Events</title>
-                <style>{"body { background-color: #f78f1e; }" }</style>
+                <style>{"body { background-color: #345995; }" }</style>
             </Helmet>
             <Title>
                 plan your next event
             </Title>
-            <Button as="a" href="/new" primary>get started</Button>
+            <Button as="a" href="/new" primary className="entry-btn">get started</Button>
         </HomeContainer>
     );
 }
