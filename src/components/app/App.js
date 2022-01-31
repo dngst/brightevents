@@ -7,6 +7,7 @@ import Login from "pages/login/Login";
 import SignUp from "pages/signup/SignUp";
 import ResetPassword from "pages/resetpassword/ResetPassword";
 import ViewEvents from "pages/viewevents/ViewEvents";
+import Event from "pages/Event";
 import UpdateEvent from "pages/updateevent/UpdateEvent";
 import PageNotFound from "pages/pagenotfound/PageNotFound";
 import About from "pages/about/About";
@@ -19,6 +20,7 @@ const App = () => {
       <Navbar />
       <Switch>
         <Route path="/" component={Home} />
+        <Route path="/event" component={Event} />
         <Route path="/events" component={ViewEvents} />
         <Route path="/new" component={CreateEvent} />
         <Route path="/update" component={UpdateEvent} />
