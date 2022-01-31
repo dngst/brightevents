@@ -24,7 +24,11 @@ const Event = () => {
             <Paragraph capitalize className="card-footer">
                 nakuru | 1-2-2022 | 11:00 - 2:00
             </Paragraph>
-            <Button primary>rsvp</Button>
+            <div className="event-btns">
+                <Button primary>rsvp</Button>
+                <Button>update</Button>
+                <Button>delete</Button>
+            </div>
         </EventContainer>
     );
 }

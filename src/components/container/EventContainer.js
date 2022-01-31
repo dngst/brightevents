@@ -11,6 +11,11 @@ const EventContainer = styled(Container)`
   .card-footer{
     text-align: center;
   }
+  .event-btns {
+    button {
+      margin: 1% auto;
+    }
+  }
   @media (max-width: 480px) {
     padding: 4.5%;
   }
