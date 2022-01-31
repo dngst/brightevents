@@ -2,13 +2,8 @@ import styled from "styled-components"
 import Container from "./Container";
 
 const EventContainer = styled(Container)`
-  border: 10px outset #C1DBE3;
   padding: 1%;
-  hr {
-    border-color: #CA1551;
-    width: 8rem;
-  }
-  .card-footer{
+  .event-details {
     text-align: center;
   }
   .event-btns {
