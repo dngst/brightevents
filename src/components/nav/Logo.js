@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-const Index = styled.span`
+const Logo = styled.span`
   padding: 1rem 0;
   cursor: pointer;
   img {
@@ -8,4 +8,4 @@ const Index = styled.span`
   }
 `;
 
-export default Index;
+export default Logo;

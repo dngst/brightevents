@@ -1,10 +1,10 @@
 import React, { useState } from "react";
 import Nav from "./Nav";
 import ActiveLink from "./ActiveLink";
-import Index from "./Index";
+import Logo from "./Logo";
 import Menu from "./Menu";
 import Hamburger from "./Hamburger";
-import Logo from "./logo.png"
+import Icon from "./icon.png"
 
 
 const Navbar = () => {
@@ -12,9 +12,9 @@ const Navbar = () => {
 
   return (
     <Nav>
-      <Index>
-        <ActiveLink href="/"><img src={Logo} alt="Home" /></ActiveLink>
-      </Index>
+      <Logo>
+        <ActiveLink href="/"><img src={Icon} alt="Home" /></ActiveLink>
+      </Logo>
       <Hamburger onClick={() => setIsOpen(!isOpen)}>
         <span />
         <span />
