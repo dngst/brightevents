@@ -17,6 +17,7 @@ const EventContainer = styled(Container)`
     }
   }
   @media (max-width: 480px) {
+    width: 85%;
     padding: 4.5%;
     h1 {
       font-size: 1.8rem;
