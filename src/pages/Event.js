@@ -20,10 +20,8 @@ const Event = () => {
             consectetur dolor labore adipisicing culpa ad do excepteur ut
             exercitation ut aliquip cupidatat voluptate labore.
             </Paragraph>
-            <Paragraph capitalize>nakuru</Paragraph>
-            <Paragraph>1-2-2022</Paragraph>
-            <Paragraph>11:00 to 2:00</Paragraph>
             <Paragraph><Link to="#">#food</Link></Paragraph>
+            <Paragraph capitalize className="card-footer">nakuru | 1-2-2022 | 11:00 to 2:00</Paragraph>
             <Button primary>rsvp</Button>
         </EventContainer>
     );

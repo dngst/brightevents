@@ -12,6 +12,9 @@ const EventContainer = styled(Container)`
     border-color: #CA1551;
     width: 8rem;
   }
+  .card-footer{
+    text-align: center;
+  }
   @media (max-width: 480px) {
     padding: 4.5%;
   }
