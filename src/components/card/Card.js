@@ -14,7 +14,7 @@ const Card = styled.div`
     font-size: 1.2rem;
     text-transform: uppercase;
     a {
-      color: #81523F;
+      color: #000000;
       text-decoration: underline;
     }
     span {
