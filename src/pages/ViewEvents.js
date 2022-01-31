@@ -1,7 +1,6 @@
 import { Helmet } from "react-helmet";
 import { Link } from "wouter";
 import Container from "components/container/Container";
-import Sticky from "components/container/Sticky";
 import Title from "components/Title";
 import Input from "components/input/Input";
 import Card from "components/Card";
@@ -14,10 +13,8 @@ const ViewEvents = () => {
             <Helmet>
                 <title>Events | Bright Events</title>
             </Helmet>
-            <Sticky>
-                <Title>browse events</Title>
-                <Input placeholder="search events by title, location, cateogry" />
-            </Sticky>
+            <Title>browse events</Title>
+            <Input placeholder="search events by title, location, cateogry" />
             <Card>
                 <Paragraph className="card-title">
                     <Link to="event">breaking the fast</Link>
