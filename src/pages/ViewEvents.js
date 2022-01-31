@@ -21,51 +21,7 @@ const ViewEvents = () => {
             <Card>
                 <Paragraph className="card-title">
                     <Link to="event">breaking the fast</Link>
-                    <span> - [1-2-2022]</span>
-                </Paragraph>
-                <Paragraph>
-                Deserunt voluptate pariatur tempor et eiusmod ex tempor mollit
-                dolore voluptate...
-                </Paragraph>
-                <Paragraph><Link to="#">#food</Link></Paragraph>
-            </Card>
-            <Card>
-                <Paragraph className="card-title">
-                    <Link to="event">breaking the fast</Link>
-                    <span> - [1-2-2022]</span>
-                </Paragraph>
-                <Paragraph>
-                Deserunt voluptate pariatur tempor et eiusmod ex tempor mollit
-                dolore voluptate...
-                </Paragraph>
-                <Paragraph><Link to="#">#food</Link></Paragraph>
-            </Card>
-            <Card>
-                <Paragraph className="card-title">
-                    <Link to="event">breaking the fast</Link>
-                    <span> - [1-2-2022]</span>
-                </Paragraph>
-                <Paragraph>
-                Deserunt voluptate pariatur tempor et eiusmod ex tempor mollit
-                dolore voluptate...
-                </Paragraph>
-                <Paragraph><Link to="#">#food</Link></Paragraph>
-            </Card>
-            <Card>
-                <Paragraph className="card-title">
-                    <Link to="event">breaking the fast</Link>
-                    <span> - [1-2-2022]</span>
-                </Paragraph>
-                <Paragraph>
-                Deserunt voluptate pariatur tempor et eiusmod ex tempor mollit
-                dolore voluptate...
-                </Paragraph>
-                <Paragraph><Link to="#">#food</Link></Paragraph>
-            </Card>
-            <Card>
-                <Paragraph className="card-title">
-                    <Link to="event">breaking the fast</Link>
-                    <span> - [1-2-2022]</span>
+                    <span> - 1 feb 22</span>
                 </Paragraph>
                 <Paragraph>
                 Deserunt voluptate pariatur tempor et eiusmod ex tempor mollit
