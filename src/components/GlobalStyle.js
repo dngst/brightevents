@@ -4,6 +4,7 @@ const GlobalStyle = createGlobalStyle`
   body {
   	font-family: 'Quicksand', sans-serif;
     letter-spacing: 0.0625em;
+    transition: all 0.5s ease;
   }
 
   a {
