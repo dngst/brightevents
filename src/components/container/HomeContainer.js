@@ -9,7 +9,9 @@ const HomeContainer = styled.div`
     margin: 19% 0 1%;
   }
   button {
-    width: inherit;
+    background-color: inherit;
+    color: #ffffff;
+    border-color: #ffffff;
   }
   @media (max-width: 768px) {
     line-height: 5rem;
