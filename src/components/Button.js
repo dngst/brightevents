@@ -11,7 +11,7 @@ const Button = styled.button`
   text-transform: uppercase;
   font-weight: bold;
   cursor: pointer;
-  width: 100%;
+  width: ${(props) => (props.max ? "max-content" : "100%")};
 `;
 
 export default Button;

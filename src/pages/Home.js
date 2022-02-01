@@ -13,7 +13,7 @@ const Home = () => {
       </Helmet>
       <Title>plan your next event</Title>
       <Link href="/new">
-        <Button primary>get started</Button>
+        <Button max>get started</Button>
       </Link>
     </HomeContainer>
   );
