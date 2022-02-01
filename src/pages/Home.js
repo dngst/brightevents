@@ -1,4 +1,5 @@
 import { Helmet } from "react-helmet";
+import { Link } from "wouter";
 import Title from "components/Title";
 import Button from "components/Button";
 import HomeContainer from "components/container/HomeContainer";
@@ -14,7 +15,7 @@ const Home = () => {
             <Title>
                 plan your next event
             </Title>
-            <Button as="a" href="/new" primary className="entry-btn">get started</Button>
+            <Link href="/new"><Button primary>get started</Button></Link>
         </HomeContainer>
     );
 }

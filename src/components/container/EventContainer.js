@@ -7,12 +7,18 @@ const EventContainer = styled(Container)`
   }
   .event-btns {
     button {
-      margin: 1.2% auto;
+      width: inherit;
     }
   }
   @media (max-width: 480px) {
     h1 {
       font-size: 1.8rem;
+    }
+    .event-btns {
+      button {
+        margin: 1.2% auto;
+        width: 100%;
+      }
     }
   }
 `;

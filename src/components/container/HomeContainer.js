@@ -8,9 +8,8 @@ const HomeContainer = styled.div`
     color: #ffffff;
     margin: 19% 0 1%;
   }
-  .entry-btn {
-    border: 1px solid #ffffff;
-    background-color: inherit;
+  button {
+    width: inherit;
   }
   @media (max-width: 768px) {
     line-height: 5rem;
