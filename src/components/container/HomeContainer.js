@@ -18,5 +18,5 @@ const HomeContainer = styled.div`
       font-size: 3.3rem;
     }
   }
-`
+`;
 export default HomeContainer;

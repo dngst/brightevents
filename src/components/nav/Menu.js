@@ -6,12 +6,12 @@ const Menu = styled.div`
   position: relative;
   a {
     padding: 1rem 2rem;
-  cursor: pointer;
-  text-align: right;
-  text-transform: capitalize;
-  color: #000000;
-  transition: all 0.3s ease-in;
-  font-size: 0.9rem;
+    cursor: pointer;
+    text-align: right;
+    text-transform: capitalize;
+    color: #000000;
+    transition: all 0.3s ease-in;
+    font-size: 0.9rem;
     &:hover {
       text-underline-position: under;
       text-decoration: underline;

@@ -3,7 +3,7 @@ import styled from "styled-components";
 const Card = styled.div`
   height: 100%;
   margin: 0 0 4%;
-  border: 3px dashed #C1DBE3;
+  border: 3px dashed #c1dbe3;
   text-align: left;
   padding: 0 4%;
   p {
@@ -18,7 +18,7 @@ const Card = styled.div`
       text-decoration: underline;
     }
     span {
-      color: #CA1551;
+      color: #ca1551;
     }
     @media (max-width: 480px) {
       span {
@@ -26,6 +26,6 @@ const Card = styled.div`
       }
     }
   }
-`
+`;
 
 export default Card;

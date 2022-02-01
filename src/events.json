@@ -1,29 +1,29 @@
 [
-	{
-		"title": "chasing the sun",
-		"description": "your fave djs sun down to sun up",
-		"location": "kilifi",
-		"category": "music",
-		"date": "2-3-2022",
-		"start": "6:00",
-		"end": "6:00"
-	},
-	{
-		"title": "breaking the fast",
-		"description": "all you can eat",
-		"location": "nakuru",
-		"category": "food",
-		"date": "1-2-2022",
-		"start": "11:00",
-		"end": "2:00"
-	},
-	{
-		"title": "nbo triathlon",
-		"description": "pull up and pull a muscle",
-		"location": "nairobi",
-		"category": "sports",
-		"date": "11-2-2022",
-		"start": "8:00",
-		"end": "4:00"
-	},
+  {
+    "title": "chasing the sun",
+    "description": "your fave djs sun down to sun up",
+    "location": "kilifi",
+    "category": "music",
+    "date": "2-3-2022",
+    "start": "6:00",
+    "end": "6:00"
+  },
+  {
+    "title": "breaking the fast",
+    "description": "all you can eat",
+    "location": "nakuru",
+    "category": "food",
+    "date": "1-2-2022",
+    "start": "11:00",
+    "end": "2:00"
+  },
+  {
+    "title": "nbo triathlon",
+    "description": "pull up and pull a muscle",
+    "location": "nairobi",
+    "category": "sports",
+    "date": "11-2-2022",
+    "start": "8:00",
+    "end": "4:00"
+  }
 ]

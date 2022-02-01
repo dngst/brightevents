@@ -22,5 +22,5 @@ const GlobalStyle = createGlobalStyle`
       background-color: #CA1551;
     }
   }
-`
+`;
 export default GlobalStyle;

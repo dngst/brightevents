@@ -12,7 +12,6 @@ import UpdateEvent from "pages/UpdateEvent";
 import PageNotFound from "pages/PageNotFound";
 import About from "pages/About";
 
-
 const App = () => {
   return (
     <div>
@@ -27,11 +26,11 @@ const App = () => {
         <Route path="/signup" component={SignUp} />
         <Route path="/login" component={Login} />
         <Route path="/resetpassword" component={ResetPassword} />
-        <Route path="/about" component={About}/>
+        <Route path="/about" component={About} />
         <Route component={PageNotFound} />
       </Switch>
     </div>
   );
-}
+};
 
 export default App;

@@ -4,8 +4,7 @@ import ActiveLink from "./ActiveLink";
 import Logo from "./Logo";
 import Menu from "./Menu";
 import Hamburger from "./Hamburger";
-import Icon from "./icon.png"
-
+import Icon from "./icon.png";
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -13,7 +12,9 @@ const Navbar = () => {
   return (
     <Nav>
       <Logo>
-        <ActiveLink href="/"><img src={Icon} alt="Home" /></ActiveLink>
+        <ActiveLink href="/">
+          <img src={Icon} alt="Home" />
+        </ActiveLink>
       </Logo>
       <Hamburger onClick={() => setIsOpen(!isOpen)}>
         <span />
