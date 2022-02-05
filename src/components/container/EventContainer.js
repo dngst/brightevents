@@ -4,6 +4,7 @@ import Container from "./Container";
 const EventContainer = styled(Container)`
   .event-details {
     text-align: center;
+    color: #81523f;
   }
   .event-btns {
     button {
@@ -19,6 +20,12 @@ const EventContainer = styled(Container)`
         margin: 1.2% auto;
         width: 100%;
       }
+    }
+    .event-details {
+      line-height: 2rem;
+    }
+    .event-desc {
+      padding: 3% 0;
     }
   }
 `;
