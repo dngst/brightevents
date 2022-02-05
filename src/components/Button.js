@@ -12,6 +12,7 @@ const Button = styled.button`
   font-weight: bold;
   cursor: pointer;
   width: ${(props) => (props.max ? "max-content" : "100%")};
+  letter-spacing: inherit;
 `;
 
 export default Button;
