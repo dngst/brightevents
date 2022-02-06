@@ -22,7 +22,7 @@ const ViewEvents = () => {
           Deserunt voluptate pariatur tempor et eiusmod ex tempor mollit dolore
           voluptate...
         </Paragraph>
-        <Paragraph>
+        <Paragraph className="event-cat">
           <Link to="#">#food</Link>
         </Paragraph>
       </Card>

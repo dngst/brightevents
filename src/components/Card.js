@@ -21,10 +21,13 @@ const Card = styled.div`
       color: #ca1551;
       font-weight: bold;
     }
-    @media (max-width: 480px) {
-      span {
-        display: none;
-      }
+  }
+  .event-cat {
+    font-size: 0.9rem;
+  }
+  @media (max-width: 480px) {
+    span {
+      display: none;
     }
   }
 `;
