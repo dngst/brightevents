@@ -26,7 +26,7 @@ const Event = () => {
       </Paragraph>
       <div className="event-btns">
         <Button primary>rsvp</Button>
-        <Button>update</Button>
+        <Button className="update-btn">update</Button>
         <Button>delete</Button>
       </div>
     </EventContainer>

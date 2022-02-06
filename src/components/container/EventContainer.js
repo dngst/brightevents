@@ -10,6 +10,10 @@ const EventContainer = styled(Container)`
     button {
       width: inherit;
     }
+    .update-btn {
+      border-left: none;
+      border-right: none;
+    }
   }
   @media (max-width: 480px) {
     h1 {
@@ -19,6 +23,9 @@ const EventContainer = styled(Container)`
       button {
         margin: 1.2% auto;
         width: 100%;
+      }
+      .update-btn {
+        border: 1px solid #f78f1e;
       }
     }
     .event-details {
