@@ -19,6 +19,7 @@ const Card = styled.div`
     }
     span {
       color: #ca1551;
+      font-weight: bold;
     }
     @media (max-width: 480px) {
       span {
