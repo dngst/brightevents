@@ -26,7 +26,9 @@ const Event = () => {
       </Paragraph>
       <div className="event-btns">
         <Button primary>rsvp</Button>
-        <Button className="update-btn">update</Button>
+        <Link href="/update">
+          <Button className="update-btn">update</Button>
+        </Link>
         <Button>delete</Button>
       </div>
     </EventContainer>
