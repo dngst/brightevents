@@ -9,7 +9,7 @@ import Paragraph from "components/Paragraph";
 
 const Login = () => {
   return (
-    <Container>
+    <Container md>
       <Helmet>
         <title>Login | Bright Events</title>
       </Helmet>

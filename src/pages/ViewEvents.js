@@ -8,7 +8,7 @@ import Paragraph from "components/Paragraph";
 
 const ViewEvents = () => {
   return (
-    <Container primary>
+    <Container md>
       <Helmet>
         <title>Events | Bright Events</title>
       </Helmet>

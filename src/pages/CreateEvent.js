@@ -9,7 +9,7 @@ import TimePicker from "components/input/TimePicker";
 
 const CreateEvent = () => {
   return (
-    <Container>
+    <Container md>
       <Helmet>
         <title>Create Event | Bright Events</title>
       </Helmet>

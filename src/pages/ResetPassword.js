@@ -6,7 +6,7 @@ import Button from "components/Button";
 
 const ResetPassword = () => {
   return (
-    <Container>
+    <Container md>
       <Helmet>
         <title>Reset Password | Bright Events</title>
       </Helmet>
