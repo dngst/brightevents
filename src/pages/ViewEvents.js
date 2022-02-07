@@ -13,7 +13,7 @@ const ViewEvents = () => {
         <title>Events | Bright Events</title>
       </Helmet>
       <Title>browse events</Title>
-      <Input placeholder="search events by title, location, cateogry" />
+      <Input placeholder="search events by title, location, category" />
       <Card>
         <Paragraph className="card-title">
           <span>1 feb</span> <Link to="event">breaking the fast</Link>
