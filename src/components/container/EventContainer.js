@@ -2,9 +2,28 @@ import styled from "styled-components";
 import Container from "./Container";
 
 const EventContainer = styled(Container)`
+  h1 {
+    text-align: justify;
+    word-break: break-all;
+  }
+  .event-loc {
+    color: #ca1551;
+    text-transform: uppercase;
+    text-align: left;
+    font-weight: bold;
+  }
+  .event-cat {
+    margin: 8% 0;
+  }
+  .event-desc {
+    margin: 4% 0;
+  }
   .event-details {
-    text-align: center;
+    text-align: left;
     color: #81523f;
+    span {
+      color: #808080;
+    }
   }
   .event-btns {
     button {
@@ -28,11 +47,8 @@ const EventContainer = styled(Container)`
         border: 1px solid #f78f1e;
       }
     }
-    .event-details {
-      line-height: 2rem;
-    }
     .event-desc {
-      padding: 3% 0;
+      margin: 8% 0;
     }
   }
 `;
