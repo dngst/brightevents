@@ -12,8 +12,9 @@ const Event = () => {
         <title>Breaking the fast | Bright Events</title>
       </Helmet>
       <Title>breaking the fast</Title>
+      <Paragraph className="event-loc">nakuru</Paragraph>
       <Paragraph capitalize className="event-details">
-        nakuru | 1 feb 22 | 11:00 - 2:00
+        1 feb 22 <span>|</span> 11:00 - 2:00
       </Paragraph>
       <Paragraph justify break className="event-desc">
         Deserunt voluptate pariatur tempor et eiusmod ex tempor mollit dolore
@@ -21,7 +22,7 @@ const Event = () => {
         adipisicing culpa ad do excepteur ut exercitation ut aliquip cupidatat
         voluptate labore.
       </Paragraph>
-      <Paragraph justify>
+      <Paragraph justify className="event-cat">
         <Link to="#">#food</Link>
       </Paragraph>
       <div className="event-btns">
