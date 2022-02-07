@@ -1,11 +1,11 @@
 import { Helmet } from "react-helmet";
-import Container from "components/container/Container";
+import AboutContainer from "components/container/AboutContainer";
 import Title from "components/Title";
 import Paragraph from "components/Paragraph";
 
 const About = () => {
   return (
-    <Container bg>
+    <AboutContainer>
       <Helmet>
         <title>About | Bright Events</title>
       </Helmet>
@@ -14,7 +14,7 @@ const About = () => {
         A platform for event organizers to create and manage different types of
         events while making them easily accessible to target markets.
       </Paragraph>
-    </Container>
+    </AboutContainer>
   );
 };
 
