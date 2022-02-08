@@ -4,7 +4,8 @@ const Input = styled.input.attrs((props) => ({
   type: "text",
 }))`
   border: none;
-  border-bottom: 1px solid ${(props) => props.theme.brown};
+  border-bottom: 1px solid
+    ${(props) => (props.transparent ? "props.theme.white" : props.theme.brown)};
   display: block;
   height: 2rem;
   width: 100%;
