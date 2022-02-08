@@ -3,7 +3,7 @@ import styled from "styled-components";
 const Card = styled.div`
   height: 100%;
   margin: 0 0 4%;
-  border: 3px dashed ${(props) => props.theme.blue};
+  border: 2px dashed ${(props) => props.theme.blue};
   text-align: left;
   padding: 0 4%;
   p {
