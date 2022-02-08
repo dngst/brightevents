@@ -6,8 +6,9 @@ const Container = styled.div`
   padding: 1% 0;
   width: ${(props) => (props.md ? "30%" : "55%")};
   @media (max-width: 768px) {
-    width: 100%;
-    margin-top: 25%;
+    padding: 10% 0;
+    width: 95%;
+    margin-top: 10%;
     p {
       font-size: 0.9rem;
     }
