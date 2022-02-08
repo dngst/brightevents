@@ -5,13 +5,13 @@ const HomeContainer = styled.div`
   line-height: 3.5rem;
   h1 {
     font-size: 3.5rem;
-    color: #ffffff;
+    color: ${(props) => props.theme.white};
     margin: 19% 0 1%;
   }
   button {
     background-color: inherit;
-    color: #ffffff;
-    border-color: #ffffff;
+    color: ${(props) => props.theme.white};
+    border-color: ${(props) => props.theme.white};
   }
   @media (max-width: 768px) {
     line-height: 5rem;

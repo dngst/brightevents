@@ -7,7 +7,7 @@ const Hamburger = styled.div`
   span {
     height: 2px;
     width: 25px;
-    background: #f78f1e;
+    background: ${(props) => props.theme.base};
     margin-bottom: 4px;
     border-radius: 0;
   }

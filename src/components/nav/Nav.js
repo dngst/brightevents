@@ -6,7 +6,7 @@ const Nav = styled.div`
   justify-content: space-between;
   align-items: center;
   flex-wrap: wrap;
-  background: white;
+  background: ${(props) => props.theme.white};
   position: absolute;
   top: 0;
   left: 0;
@@ -15,10 +15,10 @@ const Nav = styled.div`
     text-underline-position: under;
     text-decoration: underline;
     text-underline-offset: 0.5em;
-    text-decoration-color: #f78f1e;
+    text-decoration-color: ${(props) => props.theme.base};
   }
   @media (max-width: 768px) {
-    border-bottom: 1px solid #f2f2f2;
+    border-bottom: 1px solid ${(props) => props.theme.navBorder};
   }
 `;
 

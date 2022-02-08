@@ -16,7 +16,7 @@ const Menu = styled.div`
       text-underline-position: under;
       text-decoration: underline;
       text-underline-offset: 0.5em;
-      text-decoration-color: #f78f1e;
+      text-decoration-color: ${(props) => props.theme.base};
     }
   }
   @media (max-width: 768px) {

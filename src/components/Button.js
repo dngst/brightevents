@@ -1,9 +1,10 @@
 import styled from "styled-components";
 
 const Button = styled.button`
-  color: ${(props) => (props.primary ? "#ffffff" : "#f78f1e")};
-  background-color: ${(props) => (props.primary ? "#f78f1e" : "#ffffff")};
-  border: 1px solid #f78f1e;
+  color: ${(props) => (props.primary ? props.theme.white : props.theme.base)};
+  background-color: ${(props) =>
+    props.primary ? props.theme.base : props.theme.white};
+  border: 1px solid ${(props) => props.theme.base};
   border-radius: 0;
   margin: auto;
   padding: 0.7em 2em;

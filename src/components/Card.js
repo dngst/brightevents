@@ -3,7 +3,7 @@ import styled from "styled-components";
 const Card = styled.div`
   height: 100%;
   margin: 0 0 4%;
-  border: 3px dashed #c1dbe3;
+  border: 3px dashed ${(props) => props.theme.blue};
   text-align: left;
   padding: 0 4%;
   p {
@@ -14,11 +14,11 @@ const Card = styled.div`
     font-size: 1.2rem;
     text-transform: uppercase;
     a {
-      color: #000000;
+      color: ${(props) => props.theme.black};
       text-decoration: underline;
     }
     span {
-      color: #ca1551;
+      color: ${(props) => props.theme.highlight};
       font-weight: bold;
     }
   }

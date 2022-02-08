@@ -7,7 +7,7 @@ const EventContainer = styled(Container)`
     word-break: break-all;
   }
   .event-loc {
-    color: #ca1551;
+    color: ${(props) => props.theme.highlight};
     text-transform: uppercase;
     text-align: left;
     font-weight: bold;
@@ -20,9 +20,9 @@ const EventContainer = styled(Container)`
   }
   .event-details {
     text-align: left;
-    color: #81523f;
+    color: ${(props) => props.theme.brown};
     span {
-      color: #808080;
+      color: ${(props) => props.theme.grey};
     }
   }
   .event-btns {
@@ -44,7 +44,7 @@ const EventContainer = styled(Container)`
         width: 100%;
       }
       .update-btn {
-        border: 1px solid #f78f1e;
+        border: 1px solid ${(props) => props.theme.base};
       }
     }
     .event-desc {

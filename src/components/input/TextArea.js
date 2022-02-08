@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 const TextArea = styled.textarea`
   border: none;
-  border-bottom: 1px solid #81523f;
+  border-bottom: 1px solid ${(props) => props.theme.brown};
   height: 6rem;
   width: 100%;
   margin: 0 0 1em;
@@ -11,11 +11,11 @@ const TextArea = styled.textarea`
   overflow: auto;
   resize: none;
   ::placeholder {
-    color: #81523f;
+    color: ${(props) => props.theme.brown};
   }
   &:focus {
     outline: none;
-    border-color: #ffffff;
+    border-color: ${(props) => props.theme.white};
   }
 `;
 

@@ -9,7 +9,7 @@ const GlobalStyle = createGlobalStyle`
 
   a {
     text-decoration: none;
-    color: #345995;
+    color: ${(props) => props.theme.link};
   }
 
   body::-webkit-scrollbar {
@@ -17,9 +17,9 @@ const GlobalStyle = createGlobalStyle`
   }
 
   body::-webkit-scrollbar-thumb {
-    background-color: #345995;
+    background-color: ${(props) => props.theme.link};
     &:hover {
-      background-color: #CA1551;
+      background-color: ${(props) => props.theme.highlight};
     }
   }
 `;
