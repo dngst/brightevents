@@ -20,5 +20,8 @@ const HomeContainer = styled.div`
       font-size: 3.3rem;
     }
   }
+  @media (max-width: 1024px) {
+    margin-top: 58%;
+  }
 `;
 export default HomeContainer;

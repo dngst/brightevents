@@ -50,6 +50,13 @@ const EventContainer = styled(Container)`
     .event-desc {
       margin: 8% 0;
     }
+    width: 100% !important;
+  }
+  @media (max-width: 820px) {
+    width: 75%;
+  }
+  @media (max-width: 1024px) {
+    width: 75%;
   }
 `;
 
