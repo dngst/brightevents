@@ -1,6 +1,6 @@
 import { Helmet } from "react-helmet";
 import { Link } from "wouter";
-import Container from "components/container/Container";
+import FormContainer from "components/container/FormContainer";
 import Title from "components/Title";
 import Button from "components/Button";
 import Input from "components/input/Input";
@@ -9,7 +9,7 @@ import Paragraph from "components/Paragraph";
 
 const SignUp = () => {
   return (
-    <Container md>
+    <FormContainer md>
       <Helmet>
         <title>Sign Up | Bright Events</title>
       </Helmet>
@@ -22,7 +22,7 @@ const SignUp = () => {
       <Paragraph capitalize>
         Already have an account?<Link to="/login"> login</Link>
       </Paragraph>
-    </Container>
+    </FormContainer>
   );
 };
 

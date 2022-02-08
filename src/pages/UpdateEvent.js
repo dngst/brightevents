@@ -1,5 +1,5 @@
 import { Helmet } from "react-helmet";
-import Container from "components/container/Container";
+import FormContainer from "components/container/FormContainer";
 import Title from "components/Title";
 import Button from "components/Button";
 import Input from "components/input/Input";
@@ -9,7 +9,7 @@ import TimePicker from "components/input/TimePicker";
 
 const UpdateEvent = () => {
   return (
-    <Container md>
+    <FormContainer md>
       <Helmet>
         <title>Update Event | Bright Events</title>
       </Helmet>
@@ -28,7 +28,7 @@ const UpdateEvent = () => {
       <TimePicker />
       <TimePicker />
       <Button primary>edit</Button>
-    </Container>
+    </FormContainer>
   );
 };
 
