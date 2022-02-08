@@ -1,6 +1,6 @@
 import { Helmet } from "react-helmet";
 import { Link } from "wouter";
-import Container from "components/container/Container";
+import EventsContainer from "components/container/EventsContainer";
 import Title from "components/Title";
 import Input from "components/input/Input";
 import Card from "components/Card";
@@ -8,7 +8,7 @@ import Paragraph from "components/Paragraph";
 
 const ViewEvents = () => {
   return (
-    <Container md>
+    <EventsContainer>
       <Helmet>
         <title>Events | Bright Events</title>
       </Helmet>
@@ -29,7 +29,7 @@ const ViewEvents = () => {
           <Link to="#">#food</Link>
         </Paragraph>
       </Card>
-    </Container>
+    </EventsContainer>
   );
 };
 
