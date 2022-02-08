@@ -5,6 +5,7 @@ const Logo = styled.span`
   cursor: pointer;
   img {
     height: 2rem;
+    width: 2rem;
   }
 `;
 
