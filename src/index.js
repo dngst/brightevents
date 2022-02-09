@@ -2,7 +2,7 @@ import React from "react";
 import ReactDOM from "react-dom";
 import { Router } from "wouter";
 import { ThemeProvider } from "styled-components";
-import App from "./components/App";
+import App from "./App";
 import * as serviceWorkerRegistration from "./serviceWorkerRegistration";
 import reportWebVitals from "./reportWebVitals";
 import colors from "colors";

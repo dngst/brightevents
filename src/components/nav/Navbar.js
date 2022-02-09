@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import { Link, useRoute } from "wouter";
 import styled from "styled-components";
 import Icon from "./icon.png";
