@@ -13,6 +13,7 @@ const Card = styled.div`
   .card-title {
     font-size: 1.2rem;
     text-transform: uppercase;
+    font-family: sans-serif;
     a {
       color: ${(props) => props.theme.black};
       text-decoration: underline;
