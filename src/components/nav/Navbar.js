@@ -31,6 +31,10 @@ const Logo = styled.span`
   img {
     height: 2rem;
     width: 2rem;
+    &:hover {
+      transform: rotateZ(360deg);
+      transition: 0.5s ease;
+    }
   }
 `;
 
