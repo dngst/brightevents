@@ -14,7 +14,7 @@ import About from "pages/About";
 
 const App = () => {
   return (
-    <div>
+    <>
       <GlobalStyle />
       <Navbar />
       <Switch>
@@ -29,7 +29,7 @@ const App = () => {
         <Route path="/about" component={About} />
         <Route component={PageNotFound} />
       </Switch>
-    </div>
+    </>
   );
 };
 
