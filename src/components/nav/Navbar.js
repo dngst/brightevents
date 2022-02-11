@@ -3,7 +3,7 @@ import { Link, useRoute } from "wouter";
 import styled from "styled-components";
 import Icon from "./icon.png";
 
-const Nav = styled.div`
+export const Nav = styled.div`
   padding: 0 2rem;
   display: flex;
   justify-content: space-between;
