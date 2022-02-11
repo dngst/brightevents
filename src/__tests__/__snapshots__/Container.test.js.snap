@@ -1,0 +1,26 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`works 1`] = `
+.c0 {
+  text-align: center;
+  margin: 7% auto;
+  padding: 1% 0;
+  width: 55%;
+}
+
+@media (max-width:768px) {
+  .c0 {
+    padding: 10% 0;
+    width: 95%;
+    margin-top: 10%;
+  }
+
+  .c0 p {
+    font-size: 0.9rem;
+  }
+}
+
+<div
+  class="c0"
+/>
+`;

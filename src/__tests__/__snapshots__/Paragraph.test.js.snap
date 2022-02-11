@@ -1,0 +1,14 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`works 1`] = `
+.c0 {
+  text-transform: none;
+  line-height: 1.5;
+  text-align: inherit;
+  word-break: normal;
+}
+
+<p
+  class="c0"
+/>
+`;

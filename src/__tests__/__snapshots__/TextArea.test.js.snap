@@ -1,0 +1,35 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`works 1`] = `
+.c0 {
+  border: none;
+  border-bottom: 1px solid;
+  height: 6rem;
+  width: 100%;
+  margin: 0 0 1em;
+  text-transform: capitalize;
+  box-sizing: border-box;
+  overflow: auto;
+  resize: none;
+}
+
+.c0:focus {
+  outline: none;
+}
+
+.c0:focus {
+  outline: none;
+}
+
+.c0:focus {
+  outline: none;
+}
+
+.c0:focus {
+  outline: none;
+}
+
+<textarea
+  class="c0"
+/>
+`;
