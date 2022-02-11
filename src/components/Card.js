@@ -15,7 +15,7 @@ const Card = styled.div`
     text-transform: uppercase;
     font-family: sans-serif;
     a {
-      color: ${(props) => props.theme.black};
+      color: ${(props) => props.theme.grey};
       text-decoration: underline;
     }
     span {
