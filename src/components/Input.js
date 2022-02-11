@@ -5,7 +5,7 @@ export const Input = styled.input.attrs((props) => ({
 }))`
   border: none;
   border-bottom: 1px solid
-    ${(props) => (props.transparent ? "props.theme.white" : props.theme.brown)};
+    ${(props) => (props.transparent ? props.theme.white : props.theme.brown)};
   display: block;
   height: 2rem;
   width: 100%;
