@@ -8,7 +8,6 @@ exports[`works 1`] = `
   height: 2rem;
   width: 100%;
   margin: 0 0 1em;
-  text-transform: capitalize;
   box-sizing: border-box;
 }
 
