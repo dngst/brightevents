@@ -9,6 +9,9 @@ const GlobalStyle = createGlobalStyle`
   a {
     text-decoration: none;
     color: ${(props) => props.theme.link};
+    &:hover {
+      color: ${(props) => props.theme.highlight};
+    }
   }
 
   body::-webkit-scrollbar {
