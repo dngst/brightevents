@@ -1,6 +1,6 @@
 import React, { Suspense } from "react";
 import { Helmet } from "react-helmet";
-import { Input, EmailInput } from "components/Input";
+import { EmailInput } from "components/Input";
 const FormContainer = React.lazy(() =>
   import("components/container/FormContainer")
 );
