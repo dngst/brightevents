@@ -13,7 +13,6 @@ it("applies default styles", () => {
   expect(container.firstChild).toHaveStyleRule("overflow", "auto");
   expect(container.firstChild).toHaveStyleRule("resize", "none");
   expect(container.firstChild).toHaveStyleRule("outline", "none", {
-    modifier: "&:focus"
+    modifier: "&:focus",
   });
 });
-

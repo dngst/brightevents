@@ -12,7 +12,7 @@ it("applies default styles", () => {
   expect(container.firstChild).toHaveStyleRule("margin", "7% auto");
   expect(container.firstChild).toHaveStyleRule("width", "55%");
   expect(container.firstChild).toHaveStyleRule("width", "95%", {
-    media: "(max-width: 768px)"
+    media: "(max-width: 768px)",
   });
 });
 

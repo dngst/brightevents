@@ -12,6 +12,6 @@ it("applies default styles", () => {
   expect(container.firstChild).toHaveStyleRule("text-transform", "capitalize");
   expect(container.firstChild).toHaveStyleRule("box-sizing", "border-box");
   expect(container.firstChild).toHaveStyleRule("outline", "none", {
-    modifier: "&:focus"
+    modifier: "&:focus",
   });
 });

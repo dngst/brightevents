@@ -10,5 +10,8 @@ it("applies default styles", () => {
   const { container } = render(<Nav />);
   expect(container.firstChild).toHaveStyleRule("position", "absolute");
   expect(container.firstChild).toHaveStyleRule("display", "flex");
-  expect(container.firstChild).toHaveStyleRule("justify-content", "space-between");
+  expect(container.firstChild).toHaveStyleRule(
+    "justify-content",
+    "space-between"
+  );
 });
