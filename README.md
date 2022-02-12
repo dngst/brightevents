@@ -1,4 +1,5 @@
-![](https://github.com/dngst/brightevents/actions/workflows/ci.yml/badge.svg)
+[![CI](https://github.com/dngst/brightevents/actions/workflows/ci.yml/badge.svg)
+](https://github.com/dngst/brightevents/actions/workflows/ci.yml)
 
 $ git clone [URL]
 
