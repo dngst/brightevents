@@ -10,7 +10,7 @@ const Card = styled.div`
     font-size: 1rem;
     line-height: 1.2;
   }
-  .card-title {
+  .event-title {
     font-size: 1.2rem;
     text-transform: uppercase;
     font-family: sans-serif;

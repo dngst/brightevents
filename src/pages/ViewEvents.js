@@ -20,7 +20,7 @@ const ViewEvents = () => {
           transparent
         />
         <Card>
-          <Paragraph className="card-title">
+          <Paragraph className="event-title">
             <span>1 feb</span> <Link to="event">breaking the fast</Link>
           </Paragraph>
           <Paragraph>

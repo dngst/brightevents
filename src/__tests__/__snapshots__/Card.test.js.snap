@@ -14,18 +14,18 @@ exports[`works 1`] = `
   line-height: 1.2;
 }
 
-.c0 .card-title {
+.c0 .event-title {
   font-size: 1.2rem;
   text-transform: uppercase;
   font-family: sans-serif;
 }
 
-.c0 .card-title a {
+.c0 .event-title a {
   -webkit-text-decoration: underline;
   text-decoration: underline;
 }
 
-.c0 .card-title span {
+.c0 .event-title span {
   font-weight: bold;
 }
 
