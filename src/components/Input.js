@@ -50,4 +50,8 @@ export const DatePicker = styled(Input).attrs({
   type: "date",
 })``;
 
+export const EmailInput = styled(Input).attrs({
+  type: "email",
+})``;
+
 export default Input;

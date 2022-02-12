@@ -1,7 +1,7 @@
 import React, { Suspense } from "react";
 import { Helmet } from "react-helmet";
 import { Link } from "wouter";
-import { Input, PasswordInput } from "components/Input";
+import { Input, EmailInput, PasswordInput } from "components/Input";
 const FormContainer = React.lazy(() =>
   import("components/container/FormContainer")
 );
@@ -18,7 +18,7 @@ const SignUp = () => {
         </Helmet>
         <Title>sign up</Title>
         <Input placeholder="user name" />
-        <Input placeholder="email" />
+        <EmailInput placeholder="email" />
         <PasswordInput placeholder="password" />
         <PasswordInput placeholder="password confirmation" />
         <Button primary>join</Button>
