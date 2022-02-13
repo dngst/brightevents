@@ -5,7 +5,7 @@ import { ThemeProvider } from "styled-components";
 import App from "./App";
 import * as serviceWorkerRegistration from "./serviceWorkerRegistration";
 import reportWebVitals from "./reportWebVitals";
-import colors from "colors";
+import colors from "./colors";
 
 ReactDOM.render(
   <React.StrictMode>
