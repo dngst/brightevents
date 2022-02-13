@@ -34,7 +34,12 @@ exports[`works 1`] = `
 }
 
 @media (max-width:480px) {
-  .c0 span {
+  .c0 {
+    padding: 0;
+    border: none;
+  }
+
+  .c0 .event-title span {
     display: none;
   }
 }

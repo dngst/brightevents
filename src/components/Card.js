@@ -27,8 +27,12 @@ const Card = styled.div`
     font-size: 0.9rem;
   }
   @media (max-width: 480px) {
-    span {
-      display: none;
+    padding: 0;
+    border: none;
+    .event-title {
+      span {
+        display: none;
+      }
     }
   }
 `;
