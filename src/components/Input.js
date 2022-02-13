@@ -30,6 +30,7 @@ export const TextArea = styled.textarea`
   height: 6rem;
   width: 100%;
   margin: 0 0 1em;
+  font-size: 0.8rem;
   box-sizing: border-box;
   overflow: auto;
   resize: none;
