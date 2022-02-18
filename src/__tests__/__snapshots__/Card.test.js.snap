@@ -3,10 +3,8 @@
 exports[`works 1`] = `
 .c0 {
   height: 100%;
-  margin: 0 0 4%;
-  border: 2px dashed;
   text-align: left;
-  padding: 0 4%;
+  margin-bottom: 7%;
 }
 
 .c0 p {
@@ -34,11 +32,6 @@ exports[`works 1`] = `
 }
 
 @media (max-width:480px) {
-  .c0 {
-    padding: 0;
-    border: none;
-  }
-
   .c0 .event-title span {
     display: none;
   }
