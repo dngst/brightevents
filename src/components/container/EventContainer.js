@@ -16,7 +16,7 @@ const EventContainer = styled(Container)`
     margin: 8% 0;
   }
   .event-desc {
-    margin: 4% 0;
+    margin: 2% 0;
   }
   .event-details {
     text-align: left;
