@@ -13,7 +13,7 @@ const EventContainer = styled(Container)`
     font-weight: bold;
   }
   .event-cat {
-    margin: 8% 0;
+    margin: 6% 0;
   }
   .event-desc {
     margin: 2% 0;
@@ -21,9 +21,6 @@ const EventContainer = styled(Container)`
   .event-details {
     text-align: left;
     color: ${(props) => props.theme.brown};
-    span {
-      color: ${(props) => props.theme.grey};
-    }
   }
   .event-btns {
     button {
@@ -40,15 +37,12 @@ const EventContainer = styled(Container)`
     }
     .event-btns {
       button {
-        margin: 1.2% auto;
+        margin: 1.5% auto;
         width: 100%;
       }
       .update-btn {
         border: 1px solid ${(props) => props.theme.link};
       }
-    }
-    .event-desc {
-      margin: 8% 0;
     }
     width: 100% !important;
   }

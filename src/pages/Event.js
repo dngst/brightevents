@@ -18,7 +18,7 @@ const Event = () => {
         <Title>breaking the fast</Title>
         <Paragraph className="event-loc">nakuru</Paragraph>
         <Paragraph capitalize className="event-details">
-          1 feb 22 <span>|</span> 11:00 - 2:00
+          tue, 1 feb, 2022, 11:00 AM - 2:00 PM
         </Paragraph>
         <Paragraph justify break className="event-desc">
           Deserunt voluptate pariatur tempor et eiusmod ex tempor mollit dolore
