@@ -44,7 +44,7 @@ const EventContainer = styled(Container)`
         width: 100%;
       }
       .update-btn {
-        border: 1px solid ${(props) => props.theme.base};
+        border: 1px solid ${(props) => props.theme.link};
       }
     }
     .event-desc {
