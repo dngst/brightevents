@@ -13,7 +13,7 @@ const Event = () => {
     <Suspense fallback={<div>loading...</div>}>
       <EventContainer>
         <Helmet>
-          <title>Breaking the fast | Bright Events</title>
+          <title>Breaking the fast</title>
         </Helmet>
         <Title>breaking the fast</Title>
         <Paragraph className="event-loc">nakuru</Paragraph>
