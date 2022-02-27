@@ -9,6 +9,7 @@ const Paragraph = React.lazy(() => import("components/Paragraph"));
 const Button = React.lazy(() => import("components/Button"));
 
 const Event = () => {
+  const loggedIn = false;
   return (
     <Suspense fallback={<div>loading...</div>}>
       <EventContainer>
@@ -31,10 +32,14 @@ const Event = () => {
         </Paragraph>
         <div className="event-btns">
           <Button primary>rsvp</Button>
-          <Link href="/update">
-            <Button className="update-btn">update</Button>
-          </Link>
-          <Button>delete</Button>
+          {loggedIn && (
+            <>
+              <Link href="/update">
+                <Button className="update-btn">update</Button>
+              </Link>
+              <Button>delete</Button>
+            </>
+          )}
         </div>
       </EventContainer>
     </Suspense>
