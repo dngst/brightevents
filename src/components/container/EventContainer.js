@@ -23,6 +23,7 @@ const EventContainer = styled(Container)`
     color: ${(props) => props.theme.brown};
   }
   .event-btns {
+    text-align: left;
     button {
       width: inherit;
     }
