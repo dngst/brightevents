@@ -19,10 +19,10 @@ const App = () => {
       <Navbar />
       <Switch>
         <Route path="/" component={Home} />
-        <Route path="/event" component={Event} />
         <Route path="/events" component={ViewEvents} />
+        <Route path="/events/1" component={Event} />
         <Route path="/new" component={CreateEvent} />
-        <Route path="/update" component={UpdateEvent} />
+        <Route path="/events/1/update" component={UpdateEvent} />
         <Route path="/signup" component={SignUp} />
         <Route path="/login" component={Login} />
         <Route path="/resetpassword" component={ResetPassword} />
