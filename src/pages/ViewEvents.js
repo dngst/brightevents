@@ -20,7 +20,7 @@ const ViewEvents = () => {
       />
       <Card>
         <Paragraph className="event-title">
-          <span>1 feb</span> <Link to="event">breaking the fast</Link>
+          <span>1 feb</span> <Link to="/events/1">breaking the fast</Link>
         </Paragraph>
         <LinesEllipsis
           maxLine="2"
