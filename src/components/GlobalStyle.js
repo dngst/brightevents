@@ -21,6 +21,27 @@ const GlobalStyle = createGlobalStyle`
       background-color: ${(props) => props.theme.highlight};
     }
   }
+
+  .event-row {
+    display: flex;
+    justify-content: space-between;
+    p {
+      text-transform: uppercase;
+        &:nth-child(4) {
+        text-decoration: underline;
+      }
+    }
+
+    @media (max-width: 768px) {
+      display: block;
+      text-align: left;
+      margin-bottom: 13%;
+    }
+  }
+
+  .center {
+    text-align: center;
+  }
 `;
 
 export default GlobalStyle;
