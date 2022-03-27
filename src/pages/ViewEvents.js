@@ -15,7 +15,6 @@ const ViewEvents = () => {
       <Input
         placeholder="search events by title, location, category"
         transparent
-        className="center"
       />
       <Link to="/events/1">
         <div className="event-row">

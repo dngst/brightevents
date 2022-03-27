@@ -38,10 +38,6 @@ const GlobalStyle = createGlobalStyle`
       margin-bottom: 13%;
     }
   }
-
-  .center {
-    text-align: center;
-  }
 `;
 
 export default GlobalStyle;
