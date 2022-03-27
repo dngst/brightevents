@@ -21,7 +21,7 @@ const Login = () => {
         <PasswordInput placeholder="password" />
         <Button primary>ok</Button>
         <Paragraph capitalize>
-          <Link to="/resetpassword">forgot password?</Link>
+          <Link to="/password/reset">forgot password?</Link>
         </Paragraph>
         <Paragraph capitalize>
           Don't have an account?<Link to="/signup"> sign up</Link>

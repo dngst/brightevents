@@ -25,7 +25,7 @@ const App = () => {
         <Route path="/events/1/update" component={UpdateEvent} />
         <Route path="/signup" component={SignUp} />
         <Route path="/login" component={Login} />
-        <Route path="/resetpassword" component={ResetPassword} />
+        <Route path="/password/reset" component={ResetPassword} />
         <Route path="/about" component={About} />
         <Route component={PageNotFound} />
       </Switch>
