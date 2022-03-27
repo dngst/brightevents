@@ -24,6 +24,7 @@ const GlobalStyle = createGlobalStyle`
 
   .event-row {
     display: flex;
+    cursor: pointer;
     justify-content: space-between;
     p {
       text-transform: uppercase;
