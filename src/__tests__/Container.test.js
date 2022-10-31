@@ -9,7 +9,7 @@ it("works", () => {
 it("applies default styles", () => {
   const { container } = render(<Container />);
   expect(container.firstChild).toHaveStyleRule("text-align", "center");
-  expect(container.firstChild).toHaveStyleRule("margin", "7% auto");
+  expect(container.firstChild).toHaveStyleRule("margin", "4% auto");
   expect(container.firstChild).toHaveStyleRule("width", "55%");
   expect(container.firstChild).toHaveStyleRule("width", "95%", {
     media: "(max-width: 768px)",

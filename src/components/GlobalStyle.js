@@ -4,6 +4,9 @@ const GlobalStyle = createGlobalStyle`
   body {
   	font-family: 'Quicksand', sans-serif;
     letter-spacing: 0.0625em;
+    display:flex;
+    flex-direction:column;
+    margin: 0;
   }
 
   a {
@@ -39,6 +42,18 @@ const GlobalStyle = createGlobalStyle`
       margin-bottom: 13%;
     }
   }
+
+  main {
+    position: relative;
+    min-height: 100vh;
+  }
+
+  #root {
+    @media (max-width: 768px) {
+      margin-bottom: 10%;
+    }
+  }
+
 `;
 
 export default GlobalStyle;

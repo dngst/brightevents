@@ -11,6 +11,7 @@ import Event from "pages/Event";
 import UpdateEvent from "pages/UpdateEvent";
 import PageNotFound from "pages/PageNotFound";
 import About from "pages/About";
+import Footer from "components/Footer";
 
 const App = () => {
   return (
@@ -21,14 +22,15 @@ const App = () => {
         <Route path="/" component={Home} />
         <Route path="/events" component={ViewEvents} />
         <Route path="/events/1" component={Event} />
-        <Route path="/new" component={CreateEvent} />
-        <Route path="/events/1/update" component={UpdateEvent} />
+        <Route path="/events/new" component={CreateEvent} />
+        <Route path="/events/1/edit" component={UpdateEvent} />
         <Route path="/signup" component={SignUp} />
         <Route path="/login" component={Login} />
         <Route path="/password/reset" component={ResetPassword} />
         <Route path="/about" component={About} />
         <Route component={PageNotFound} />
       </Switch>
+      <Footer />
     </>
   );
 };

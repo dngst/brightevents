@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 const Container = styled.div`
   text-align: center;
-  margin: 7% auto;
+  margin: 4% auto;
   padding: 1% 0;
   width: ${(props) => (props.md ? "30%" : "55%")};
   @media (max-width: 768px) {

@@ -16,7 +16,7 @@ const Home = () => {
           <style>{"body { background-color: #345995; }"}</style>
         </Helmet>
         <Title>plan your next event</Title>
-        <Link href="/new">
+        <Link href="/events/new">
           <Button max>get started</Button>
         </Link>
       </HomeContainer>

@@ -31,12 +31,6 @@ exports[`works 1`] = `
   text-underline-offset: 0.5em;
 }
 
-@media (max-width:768px) {
-  .c0 {
-    border-bottom: 1px solid;
-  }
-}
-
 <div
   class="c0"
 />

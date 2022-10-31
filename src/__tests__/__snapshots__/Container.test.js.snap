@@ -3,7 +3,7 @@
 exports[`works 1`] = `
 .c0 {
   text-align: center;
-  margin: 7% auto;
+  margin: 4% auto;
   padding: 1% 0;
   width: 55%;
 }

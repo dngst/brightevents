@@ -20,9 +20,6 @@ export const Nav = styled.div`
     text-underline-offset: 0.5em;
     text-decoration-color: ${(props) => props.theme.base};
   }
-  @media (max-width: 768px) {
-    border-bottom: 1px solid ${(props) => props.theme.navBorder};
-  }
 `;
 
 const Logo = styled.span`
@@ -33,7 +30,7 @@ const Logo = styled.span`
     width: 2rem;
     &:hover {
       transform: rotateZ(360deg);
-      transition: 0.5s ease;
+      transition: 0.5s ease-out;
     }
   }
 `;
@@ -75,7 +72,7 @@ const Menu = styled.div`
     text-align: right;
     text-transform: capitalize;
     color: #000000;
-    transition: all 0.3s ease-in;
+    transition: all 0.35s ease-in;
     font-size: 0.9rem;
     &:hover {
       text-underline-position: under;
@@ -111,7 +108,7 @@ const Navbar = () => {
       <Menu isOpen={isOpen}>
         <ActiveLink href="/about">about</ActiveLink>
         <ActiveLink href="/events">browse events</ActiveLink>
-        <ActiveLink href="/new">create event</ActiveLink>
+        <ActiveLink href="/events/new">create event</ActiveLink>
         <ActiveLink href="/login">login</ActiveLink>
       </Menu>
     </Nav>

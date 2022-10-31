@@ -4,6 +4,7 @@ import Container from "components/container/Container";
 import Title from "components/Title";
 import Paragraph from "components/Paragraph";
 import Input from "components/Input";
+import { Label, LabelText } from "components/Label";
 
 const ViewEvents = () => {
   return (
@@ -12,9 +13,13 @@ const ViewEvents = () => {
         <title>Events | Bright Events</title>
       </Helmet>
       <Title>browse events</Title>
+      <Label htmlFor="event-search">
+        <LabelText>search events by title, location, category</LabelText>
+      </Label>
       <Input
-        placeholder="search events by title, location, category"
+        id="event-search"
         transparent
+        autoFocus
       />
       <Link to="/events/1">
         <div className="event-row">

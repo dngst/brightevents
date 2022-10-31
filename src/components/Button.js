@@ -14,6 +14,14 @@ const Button = styled.button`
   cursor: pointer;
   width: ${(props) => (props.max ? "max-content" : "100%")};
   letter-spacing: inherit;
+  &:hover {
+    background-color: ${(props) =>
+    props.primary ? props.theme.white : props.theme.link};
+    color: ${(props) =>
+    props.primary ? props.theme.link : props.theme.white};
+    border-color: ${(props) => props.theme.link};
+  }
+  transition: background-color 0.5s ease-in, color 0.5s ease-in, border-color 0.4s ease-in;
 `;
 
 export default Button;

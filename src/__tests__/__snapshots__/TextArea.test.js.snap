@@ -4,25 +4,13 @@ exports[`works 1`] = `
 .c0 {
   border: none;
   border-bottom: 1px solid;
-  height: 6rem;
+  height: 4rem;
   width: 100%;
   margin: 0 0 1em;
   font-size: 0.8rem;
   box-sizing: border-box;
   overflow: auto;
   resize: none;
-}
-
-.c0:focus {
-  outline: none;
-}
-
-.c0:focus {
-  outline: none;
-}
-
-.c0:focus {
-  outline: none;
 }
 
 .c0:focus {

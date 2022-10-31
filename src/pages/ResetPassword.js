@@ -3,6 +3,7 @@ import { Link } from "wouter";
 import { Helmet } from "react-helmet";
 import Paragraph from "components/Paragraph";
 import { EmailInput } from "components/Input";
+import { Label, LabelText } from "components/Label";
 const FormContainer = React.lazy(() =>
   import("components/container/FormContainer")
 );
@@ -17,7 +18,10 @@ const ResetPassword = () => {
           <title>Reset Password | Bright Events</title>
         </Helmet>
         <Title>reset password</Title>
-        <EmailInput placeholder="email" />
+        <Label htmlFor="email">
+          <LabelText>email</LabelText>
+        </Label>
+        <EmailInput id="email" />
         <Button primary>send link</Button>
         <Paragraph capitalize>
           <Link to="/signup">create a new account</Link>

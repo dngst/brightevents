@@ -11,13 +11,11 @@ export const Input = styled.input.attrs((props) => ({
   width: 100%;
   margin: 0 0 1em;
   box-sizing: border-box;
-  ::placeholder {
-    color: ${(props) => props.theme.brown};
-  }
   &:focus {
     outline: none;
     border-color: ${(props) => props.theme.white};
   }
+  transition: border-color 0.5s ease-in;
 `;
 
 export const PasswordInput = styled(Input).attrs({
@@ -27,16 +25,13 @@ export const PasswordInput = styled(Input).attrs({
 export const TextArea = styled.textarea`
   border: none;
   border-bottom: 1px solid ${(props) => props.theme.brown};
-  height: 6rem;
+  height: 4rem;
   width: 100%;
   margin: 0 0 1em;
   font-size: 0.8rem;
   box-sizing: border-box;
   overflow: auto;
   resize: none;
-  ::placeholder {
-    color: ${(props) => props.theme.brown};
-  }
   &:focus {
     outline: none;
     border-color: ${(props) => props.theme.white};
