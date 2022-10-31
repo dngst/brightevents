@@ -109,7 +109,7 @@ const Navbar = () => {
         <ActiveLink href="/about">about</ActiveLink>
         <ActiveLink href="/events">browse events</ActiveLink>
         <ActiveLink href="/events/new">create event</ActiveLink>
-        <ActiveLink href="/login">login</ActiveLink>
+        <ActiveLink href="/signup">join</ActiveLink>
       </Menu>
     </Nav>
   );
