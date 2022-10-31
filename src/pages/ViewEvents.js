@@ -5,6 +5,7 @@ import Title from "components/Title";
 import Paragraph from "components/Paragraph";
 import Input from "components/Input";
 import { Label, LabelText } from "components/Label";
+import Button from "components/Button";
 
 const ViewEvents = () => {
   return (
@@ -21,30 +22,24 @@ const ViewEvents = () => {
         transparent
         autoFocus
       />
-      <Link to="/events/1">
-        <div className="event-row">
-          <Paragraph>feb 23</Paragraph>
-          <Paragraph>Breaking The Fast</Paragraph>
-          <Paragraph>NAKURU</Paragraph>
-          <Paragraph>RSVP</Paragraph>
-        </div>
-      </Link>
-      <Link to="/events/1">
-        <div className="event-row">
-          <Paragraph>feb 23</Paragraph>
-          <Paragraph>Breaking The Fast</Paragraph>
-          <Paragraph>NAKURU</Paragraph>
-          <Paragraph>RSVP</Paragraph>
-        </div>
-      </Link>
-      <Link to="/events/1">
-        <div className="event-row">
-          <Paragraph>feb 23</Paragraph>
-          <Paragraph>Breaking The Fast</Paragraph>
-          <Paragraph>NAKURU</Paragraph>
-          <Paragraph>RSVP</Paragraph>
-        </div>
-      </Link>
+      <div className="event-row">
+        <Paragraph>feb 23</Paragraph>
+        <Paragraph><Link to="/events/1">Breaking The Fast</Link></Paragraph>
+        <Paragraph>NAKURU</Paragraph>
+        <Paragraph><Button primary>rsvp</Button></Paragraph>
+      </div>
+      <div className="event-row">
+        <Paragraph>feb 23</Paragraph>
+        <Paragraph><Link to="/events/1">Breaking The Fast</Link></Paragraph>
+        <Paragraph>NAKURU</Paragraph>
+        <Paragraph><Button primary>rsvp</Button></Paragraph>
+      </div>
+      <div className="event-row">
+        <Paragraph>feb 23</Paragraph>
+        <Paragraph><Link to="/events/1">Breaking The Fast</Link></Paragraph>
+        <Paragraph>NAKURU</Paragraph>
+        <Paragraph><Button primary>rsvp</Button></Paragraph>
+      </div>
     </Container>
   );
 };

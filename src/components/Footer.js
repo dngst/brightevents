@@ -24,9 +24,9 @@ const AppName = styled.p`
 const Footer = () => {
   return (
     <AppFooter>
-      <AppName>twitter</AppName>
-      <AppName>instagram</AppName>
-      <AppName>bizz stuff</AppName>
+      <AppName>twitter.</AppName>
+      <AppName>instagram.</AppName>
+      <AppName>bizz stuff.</AppName>
       <AppName>&copy; 2022 Bright Events</AppName>
     </AppFooter>
   );

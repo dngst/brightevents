@@ -27,12 +27,14 @@ const GlobalStyle = createGlobalStyle`
 
   .event-row {
     display: flex;
-    cursor: pointer;
     justify-content: space-between;
     p {
       text-transform: uppercase;
-        &:nth-child(4) {
-        text-decoration: underline;
+        &:nth-child(1) {
+          font-weight: 900;
+      }
+      &:nth-child(2) {
+          text-decoration: underline;
       }
     }
 
