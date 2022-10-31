@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 const Container = styled.div`
-  text-align: center;
+  text-align: ${(props) => (props.left ? "left" : "center")};
   margin: 4% auto;
   padding: 1% 0;
   width: ${(props) => (props.md ? "30%" : "55%")};

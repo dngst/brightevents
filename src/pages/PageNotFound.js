@@ -8,7 +8,7 @@ const Button = React.lazy(() => import("components/Button"));
 const PageNotFound = () => {
   return (
     <Suspense fallback={<div>loading...</div>}>
-      <Container>
+      <Container left>
         <Helmet>
           <title>Page Not Found | Bright Events</title>
         </Helmet>
