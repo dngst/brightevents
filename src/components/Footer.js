@@ -4,7 +4,7 @@ const AppFooter = styled.footer`
   display: flex;
   justify-content: space-evenly;
   font-size: 0.7rem;
-  background-color: ${(props) => props.theme.grey};
+  background-color: ${(props) => props.theme.link};
   position: absolute;
   bottom: 0;
   width: 100%;
@@ -15,7 +15,7 @@ const AppFooter = styled.footer`
 `;
 
 const AppName = styled.p`
-  color: ${(props) => props.theme.black};
+  color: ${(props) => props.theme.white};
   @media (max-width: 768px) {
     margin: 2% 2%;
   }
