@@ -12,22 +12,22 @@ const ViewEvents = () => {
       </Helmet>
       <Title>browse events</Title>
       <div className="event-row">
-        <Paragraph>feb 23</Paragraph>
-        <Paragraph><Link to="/events/1">Breaking The Fast</Link></Paragraph>
+        <Paragraph>23.11</Paragraph>
+        <Paragraph>Breaking The Fast</Paragraph>
         <Paragraph><span>NAKURU,</span> KENYA</Paragraph>
-        <Paragraph>tix</Paragraph>
+        <Paragraph><Link to="/events/1">tix</Link></Paragraph>
       </div>
       <div className="event-row">
-        <Paragraph>feb 23</Paragraph>
-        <Paragraph><Link to="/events/1">Breaking The Fast</Link></Paragraph>
+        <Paragraph>23.11</Paragraph>
+        <Paragraph>Breaking The Fast</Paragraph>
         <Paragraph><span>NAKURU,</span> KENYA</Paragraph>
-        <Paragraph>tix</Paragraph>
+        <Paragraph><Link to="/events/1">tix</Link></Paragraph>
       </div>
       <div className="event-row">
-        <Paragraph>feb 23</Paragraph>
-        <Paragraph><Link to="/events/1">Breaking The Fast</Link></Paragraph>
+        <Paragraph>23.11</Paragraph>
+        <Paragraph>Breaking The Fast</Paragraph>
         <Paragraph><span>NAKURU,</span> KENYA</Paragraph>
-        <Paragraph>tix</Paragraph>
+        <Paragraph><Link to="/events/1">tix</Link></Paragraph>
       </div>
     </Container>
   );

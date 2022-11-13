@@ -26,7 +26,7 @@ const Footer = () => {
     <AppFooter>
       <AppName>twitter.</AppName>
       <AppName>instagram.</AppName>
-      <AppName>bizz stuff.</AppName>
+      <AppName>biz stuff.</AppName>
       <AppName>&copy; 2022 Bright Events</AppName>
     </AppFooter>
   );

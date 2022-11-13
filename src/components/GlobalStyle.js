@@ -34,11 +34,10 @@ const GlobalStyle = createGlobalStyle`
       font-size: 1.05rem;
       &:nth-child(1) {
         font-weight: 700;
-        color: ${(props) => props.theme.brown};
+        color: ${(props) => props.theme.highlight};
       }
       &:nth-child(2) {
         font-weight: 900;
-        text-decoration: underline;
       }
       &:nth-child(3) {
         span {
@@ -46,7 +45,6 @@ const GlobalStyle = createGlobalStyle`
         }
       }
       &:nth-child(4) {
-        color: ${(props) => props.theme.highlight};
         font-weight: 900;
       }
     }
