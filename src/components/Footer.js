@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import { Link } from "wouter";
 
 const AppFooter = styled.footer`
   display: flex;
@@ -16,6 +17,10 @@ const AppFooter = styled.footer`
 
 const AppName = styled.p`
   color: ${(props) => props.theme.white};
+  cursor: pointer;
+  &:nth-child(3) {
+    cursor: auto;
+  }
   @media (max-width: 768px) {
     margin: 2% 2%;
   }
@@ -24,10 +29,9 @@ const AppName = styled.p`
 const Footer = () => {
   return (
     <AppFooter>
-      <AppName>twitter.</AppName>
-      <AppName>instagram.</AppName>
-      <AppName>biz stuff.</AppName>
-      <AppName>&copy; 2022 Bright Events</AppName>
+      <Link href="/socials"><AppName>socials.</AppName></Link>
+      <Link href="/bizstuff"><AppName>biz stuff.</AppName></Link>
+      <AppName>&copy; {(new Date().getFullYear())} Bright Events</AppName>
     </AppFooter>
   );
 };

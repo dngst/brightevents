@@ -11,6 +11,8 @@ import Event from "pages/Event";
 import UpdateEvent from "pages/UpdateEvent";
 import PageNotFound from "pages/PageNotFound";
 import About from "pages/About";
+import Socials from "pages/Socials";
+import BizStuff from "pages/BizStuff"
 import Footer from "components/Footer";
 
 const App = () => {
@@ -28,6 +30,8 @@ const App = () => {
         <Route path="/login" component={Login} />
         <Route path="/password/reset" component={ResetPassword} />
         <Route path="/about" component={About} />
+        <Route path="/socials" component={Socials} />
+        <Route path="/bizstuff" component={BizStuff} />
         <Route component={PageNotFound} />
       </Switch>
       <Footer />

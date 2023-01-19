@@ -26,6 +26,10 @@ const GlobalStyle = createGlobalStyle`
     }
   }
 
+  li {
+    list-style-type: none;
+  }
+
   .event-row {
     display: flex;
     justify-content: space-between;
