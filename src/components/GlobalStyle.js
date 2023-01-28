@@ -7,7 +7,7 @@ const GlobalStyle = createGlobalStyle`
     display:flex;
     flex-direction:column;
     margin: 0;
-    transition: all 0.4s ease-in 0s;
+    transition: all 0.2s ease-in 0s;
   }
 
   a {
@@ -36,18 +36,22 @@ const GlobalStyle = createGlobalStyle`
     p {
       text-transform: uppercase;
       font-size: 1.05rem;
+
       &:nth-child(1) {
         font-weight: 700;
         color: ${(props) => props.theme.highlight};
       }
+
       &:nth-child(2) {
         font-weight: 900;
       }
+
       &:nth-child(3) {
         span {
           font-weight: 700;
         }
       }
+
       &:nth-child(4) {
         font-weight: 900;
       }

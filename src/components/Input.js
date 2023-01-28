@@ -11,6 +11,7 @@ export const Input = styled.input.attrs((props) => ({
   width: 100%;
   margin: 0 0 1em;
   box-sizing: border-box;
+
   &:focus {
     outline: none;
     border-color: ${(props) => props.theme.white};
@@ -32,6 +33,7 @@ export const TextArea = styled.textarea`
   box-sizing: border-box;
   overflow: auto;
   resize: none;
+
   &:focus {
     outline: none;
     border-color: ${(props) => props.theme.white};

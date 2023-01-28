@@ -1,7 +1,7 @@
 import { Helmet } from "react-helmet";
-import Container from "components/container/Container";
-import Title from "components/Title";
 import { Link } from "wouter";
+import Title from "components/Title";
+import Container from "components/container/Container";
 
 const BizStuff = () => {
   return (

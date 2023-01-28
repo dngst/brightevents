@@ -1,8 +1,8 @@
 import { Helmet } from "react-helmet";
 import { Link } from "wouter";
-import Container from "components/container/Container";
 import Title from "components/Title";
 import Paragraph from "components/Paragraph";
+import Container from "components/container/Container";
 
 const ViewEvents = () => {
   return (

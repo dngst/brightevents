@@ -8,6 +8,12 @@ exports[`works 1`] = `
   width: 55%;
 }
 
+.c0 button {
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+}
+
 @media (max-width:768px) {
   .c0 {
     padding: 10% 0;

@@ -1,41 +1,36 @@
-import React, { Suspense } from "react";
 import { Helmet } from "react-helmet";
 import { Link } from "wouter";
 import { EmailInput, PasswordInput } from "components/Input";
 import { Label, LabelText } from "components/Label";
-const FormContainer = React.lazy(() =>
-  import("components/container/FormContainer")
-);
-const Title = React.lazy(() => import("components/Title"));
-const Paragraph = React.lazy(() => import("components/Paragraph"));
-const Button = React.lazy(() => import("components/Button"));
+import Title from "components/Title";
+import Paragraph from "components/Paragraph";
+import Button from "components/Button";
+import Container from "components/container/Container";
 
 const SignUp = () => {
   return (
-    <Suspense fallback={<div>loading...</div>}>
-      <FormContainer md>
-        <Helmet>
-          <title>Sign Up | Bright Events</title>
-        </Helmet>
-        <Title>sign up</Title>
-        <Label htmlFor="email">
-          <LabelText>email</LabelText>
-        </Label>
-        <EmailInput id="email" />
-        <Label htmlFor="password">
-          <LabelText>password</LabelText>
-        </Label>
-        <PasswordInput id="password" />
-        <Label htmlFor="password-confirmation">
-          <LabelText>password confirmation</LabelText>
-        </Label>
-        <PasswordInput id="password-confirmation" />
-        <Button primary>join</Button>
-        <Paragraph capitalize>
-          Already have an account?<Link to="/login"> login</Link>
-        </Paragraph>
-      </FormContainer>
-    </Suspense>
+    <Container md>
+      <Helmet>
+        <title>Sign Up | Bright Events</title>
+      </Helmet>
+      <Title>sign up</Title>
+      <Label htmlFor="email">
+        <LabelText>email</LabelText>
+      </Label>
+      <EmailInput id="email" />
+      <Label htmlFor="password">
+        <LabelText>password</LabelText>
+      </Label>
+      <PasswordInput id="password" />
+      <Label htmlFor="password-confirmation">
+        <LabelText>password confirmation</LabelText>
+      </Label>
+      <PasswordInput id="password-confirmation" />
+      <Button primary>join</Button>
+      <Paragraph capitalize>
+        Already have an account?<Link to="/login"> login</Link>
+      </Paragraph>
+    </Container>
   );
 };
 

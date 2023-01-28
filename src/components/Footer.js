@@ -21,6 +21,7 @@ const AppName = styled.p`
   &:nth-child(3) {
     cursor: auto;
   }
+
   @media (max-width: 768px) {
     margin: 2% 2%;
   }
