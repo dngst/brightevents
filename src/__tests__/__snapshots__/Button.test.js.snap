@@ -17,8 +17,8 @@ exports[`works 1`] = `
   -ms-letter-spacing: inherit;
   letter-spacing: inherit;
   margin: 1% auto;
-  -webkit-transition: background-color 0.5s ease-in,color 0.5s ease-in,border-color 0.4s ease-in;
-  transition: background-color 0.5s ease-in,color 0.5s ease-in,border-color 0.4s ease-in;
+  -webkit-transition: background-color 0.5s ease,color 0.5s ease,border-color 0.4s ease;
+  transition: background-color 0.5s ease,color 0.5s ease,border-color 0.4s ease;
 }
 
 <button

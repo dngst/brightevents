@@ -16,7 +16,7 @@ export const Input = styled.input.attrs((props) => ({
     outline: none;
     border-color: ${(props) => props.theme.white};
   }
-  transition: border-color 0.5s ease-in;
+  transition: border-color 0.5s ease;
 `;
 
 export const PasswordInput = styled(Input).attrs({

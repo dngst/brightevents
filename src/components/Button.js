@@ -22,7 +22,7 @@ const Button = styled.button`
     props.primary ? props.theme.link : props.theme.white};
     border-color: ${(props) => props.theme.link};
   }
-  transition: background-color 0.5s ease-in, color 0.5s ease-in, border-color 0.4s ease-in;
+  transition: background-color 0.5s ease, color 0.5s ease, border-color 0.4s ease;
 `;
 
 export default Button;

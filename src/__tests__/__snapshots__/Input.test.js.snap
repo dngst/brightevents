@@ -9,8 +9,8 @@ exports[`works 1`] = `
   width: 100%;
   margin: 0 0 1em;
   box-sizing: border-box;
-  -webkit-transition: border-color 0.5s ease-in;
-  transition: border-color 0.5s ease-in;
+  -webkit-transition: border-color 0.5s ease;
+  transition: border-color 0.5s ease;
 }
 
 .c0:focus {

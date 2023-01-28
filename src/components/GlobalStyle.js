@@ -7,7 +7,7 @@ const GlobalStyle = createGlobalStyle`
     display:flex;
     flex-direction:column;
     margin: 0;
-    transition: all 0.2s ease-in 0s;
+    transition: all 0.3s ease 0s;
   }
 
   a {
